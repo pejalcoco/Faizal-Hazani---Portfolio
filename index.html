@@ -1,0 +1,1713 @@
+<!DOCTYPE html>
+<html class="scroll-smooth light" lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muhammad Faizal Bin Nor Hazani | IT Student, Frontend Web Developer & Digital Entrepreneur Portfolio Malaysia</title>
+    
+    <!-- Complete On-Page SEO Meta Tags -->
+    <meta name="description" content="Official portfolio of Muhammad Faizal Bin Nor Hazani, an IT Student at UiTM Shah Alam, Frontend Web Developer, and Digital Entrepreneur. Discover programming projects (Java, JavaScript, React, Tailwind CSS), business ventures, and contact details.">
+    <meta name="keywords" content="Information Technology Portfolio, IT Student, Software Developer, Frontend Developer, Web Developer, UI/UX Designer, Full Stack Developer, Computer Science, Java, JavaScript, React, HTML, CSS, Tailwind CSS, Responsive Website, Portfolio Malaysia, UiTM Student, Information Technology Graduate, Web Design, Software Engineering, Problem Solving, Team Collaboration, Project Development, Programming Portfolio, Technology Enthusiast, Digital Portfolio, PejalCoco, OTA MY">
+    <meta name="author" content="Muhammad Faizal Bin Nor Hazani">
+    <link rel="canonical" href="https://www.faizalhazani.com/">
+    
+    <!-- Open Graph (Facebook / LinkedIn) Meta Tags -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.faizalhazani.com/">
+    <meta property="og:title" content="Muhammad Faizal | IT Student & Frontend Web Developer Portfolio">
+    <meta property="og:description" content="Explore the portfolio of Muhammad Faizal Bin Nor Hazani, highlighting software engineering projects, academic milestones at UiTM Shah Alam, and digital business ventures.">
+    <meta property="og:image" content="https://www.faizalhazani.com/profile.jpg">
+    
+    <!-- Twitter/X Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://www.faizalhazani.com/">
+    <meta name="twitter:title" content="Muhammad Faizal | IT Student & Frontend Web Developer Portfolio">
+    <meta name="twitter:description" content="Explore the portfolio of Muhammad Faizal Bin Nor Hazani, highlighting software engineering projects, academic milestones at UiTM Shah Alam, and digital business ventures.">
+    <meta name="twitter:image" content="https://www.faizalhazani.com/profile.jpg">
+    
+    <!-- Schema.org JSON-LD Structured Data for E-E-A-T & Google Search -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Muhammad Faizal Bin Nor Hazani",
+      "url": "https://www.faizalhazani.com/",
+      "image": "https://www.faizalhazani.com/profile.jpg",
+      "jobTitle": "Frontend Web Developer & IT Professional",
+      "alumniOf": {
+        "@type": "EducationalOrganization",
+        "name": "Universiti Teknologi MARA (UiTM) Shah Alam",
+        "sameAs": "https://www.uitm.edu.my/"
+      },
+      "knowsAbout": [
+        "Information Technology",
+        "Software Development",
+        "Frontend Web Development",
+        "UI/UX Design",
+        "Java",
+        "JavaScript",
+        "React",
+        "Tailwind CSS",
+        "Digital Marketing",
+        "SEO",
+        "Problem Solving",
+        "Team Collaboration"
+      ],
+      "sameAs": [
+        "https://www.instagram.com/fzl.hzni",
+        "https://www.facebook.com/pejal.faizal"
+      ],
+      "description": "Information Technology Student at UiTM Shah Alam, Frontend Web Developer, and Founder of PejalCoco & OTA MY Topup company in Malaysia."
+    }
+    </script>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet">
+    <script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        primary: "#004ac6",
+                        "primary-container": "#2563eb",
+                        secondary: "#00687a",
+                        tertiary: "#006229",
+                        "tertiary-container": "#007e37",
+                        background: "#f9f9ff",
+                        "on-background": "#141b2b",
+                        surface: "#f9f9ff",
+                        "on-surface": "#141b2b",
+                        "surface-container-lowest": "#ffffff",
+                        "surface-container-low": "#f1f3ff",
+                        "surface-container": "#e9edff",
+                        "surface-container-high": "#e1e8fd",
+                        "surface-container-highest": "#dce2f7",
+                        "outline-variant": "#c3c6d7",
+                        outline: "#737686",
+                        "on-surface-variant": "#434655",
+                        "inverse-surface": "#293040",
+                        "inverse-on-surface": "#edf0ff"
+                    },
+                    borderRadius: {
+                        DEFAULT: "0.25rem",
+                        lg: "0.5rem",
+                        xl: "0.75rem",
+                        "2xl": "1.5rem",
+                        "3xl": "2rem",
+                        full: "9999px"
+                    },
+                    spacing: {
+                        "container-max": "1200px",
+                        xs: "8px",
+                        sm: "16px",
+                        md: "24px",
+                        lg: "48px",
+                        xl: "80px",
+                        base: "4px",
+                        gutter: "24px"
+                    },
+                    fontFamily: {
+                        display: ["Poppins", "sans-serif"],
+                        headline: ["Poppins", "sans-serif"],
+                        body: ["Inter", "sans-serif"],
+                        label: ["Inter", "sans-serif"]
+                    }
+                }
+            }
+        };
+    </script>
+    <style>
+        html {
+            font-size: 17px;
+        }
+        @media (min-width: 768px) {
+            html {
+                font-size: 18.5px;
+            }
+        }
+
+        /* Keyboard Navigation Accessibility Focus Outlines */
+        *:focus-visible {
+            outline: 3px solid #f59e0b !important;
+            outline-offset: 3px !important;
+        }
+
+        .ease-out-expo { transition-timing-function: cubic-bezier(0.19, 1, 0.22, 1); }
+        
+        /* Light mode glassmorphism card */
+        .glass-card {
+            background: rgba(255, 255, 255, 0.7);
+            backdrop-filter: blur(12px);
+            border: 1px solid rgba(226, 232, 240, 0.8);
+        }
+        
+        /* Dark mode glassmorphism card */
+        .dark .glass-card {
+            background: rgba(20, 27, 43, 0.6);
+            backdrop-filter: blur(12px);
+            border: 1px solid rgba(67, 70, 85, 0.3);
+        }
+
+        .scroll-indicator-anim { animation: bounce 2s infinite; }
+        @keyframes bounce { 
+            0%, 20%, 50%, 80%, 100% {transform: translateY(0) translateX(-50%);} 
+            40% {transform: translateY(-10px) translateX(-50%);} 
+            60% {transform: translateY(-5px) translateX(-50%);} 
+        }
+
+        .timeline-line { }
+
+        .premium-shadow {
+            box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.03);
+        }
+        .dark .premium-shadow {
+            box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.2);
+        }
+        
+        .premium-shadow-hover:hover {
+            box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.06);
+            transform: scale(1.02);
+        }
+        .dark .premium-shadow-hover:hover {
+            box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.3);
+        }
+
+        @keyframes progress-draw {
+            from { stroke-dashoffset: 283; }
+            to { stroke-dashoffset: var(--dash-offset); }
+        }
+        .circular-progress-bar {
+            stroke-dasharray: 283;
+            stroke-dashoffset: 283;
+            animation: progress-draw 1.5s ease-out-expo forwards;
+        }
+
+        /* Reveal on scroll base styling */
+        .reveal-element {
+            opacity: 0;
+            transform: translateY(30px);
+            transition: all 0.8s cubic-bezier(0.19, 1, 0.22, 1);
+        }
+        .reveal-element.active {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    </style>
+</head>
+<body class="bg-background text-on-surface font-body dark:bg-[#0b0f19] dark:text-gray-100 overflow-x-hidden selection:bg-primary/20 transition-colors duration-300">
+
+    <!-- Top Navigation Bar -->
+    <nav class="fixed top-0 w-full z-50 bg-white/60 dark:bg-[#0b0f19]/60 backdrop-blur-xl border-b border-outline-variant/30 dark:border-outline/10 shadow-sm transition-all duration-300" id="top-nav">
+        <!-- Premium glowing bottom border decoration -->
+        <div class="absolute bottom-0 left-0 w-full h-[1.5px] bg-gradient-to-r from-transparent via-amber-500/40 dark:via-amber-400/30 to-transparent"></div>
+
+        <div class="w-full px-4 flex justify-between items-center h-28">
+            <a class="flex items-center group hover:opacity-90 transition-opacity relative pl-[200px] h-full" href="#home">
+                <img class="absolute left-0 rounded-lg object-contain transition-transform duration-300 group-hover:scale-105" src="logo.png" alt="Logo" onerror="this.style.display='none'" style="height: 10cm; width: auto; max-height: 200px; filter: drop-shadow(0 10px 20px rgba(245, 158, 11, 0.25)); top: -1cm;">
+            </a>
+            
+            <div class="hidden lg:flex items-center space-x-8 xl:space-x-10">
+                <a class="font-body-md text-[18px] font-semibold text-primary dark:text-[#6495ed] relative after:absolute after:bottom-[-4px] after:left-0 after:w-full after:h-[2px] after:bg-primary dark:after:bg-[#6495ed] after:transition-all after:duration-300" href="#home" data-nav-link>Home</a>
+                <span class="text-amber-500 dark:text-amber-400 font-bold text-[20px]">|</span>
+                <a class="font-body-md text-[18px] font-semibold text-on-surface-variant dark:text-gray-300 hover:text-primary dark:hover:text-[#6495ed] transition-colors duration-200" href="#about" data-nav-link>About</a>
+                <span class="text-amber-500 dark:text-amber-400 font-bold text-[20px]">|</span>
+                <a class="font-body-md text-[18px] font-semibold text-on-surface-variant dark:text-gray-300 hover:text-primary dark:hover:text-[#6495ed] transition-colors duration-200" href="#legacy" data-nav-link>Impact</a>
+                <span class="text-amber-500 dark:text-amber-400 font-bold text-[20px]">|</span>
+                <a class="font-body-md text-[18px] font-semibold text-on-surface-variant dark:text-gray-300 hover:text-primary dark:hover:text-[#6495ed] transition-colors duration-200" href="#experience" data-nav-link>Experience</a>
+                <span class="text-amber-500 dark:text-amber-400 font-bold text-[20px]">|</span>
+                <a class="font-body-md text-[18px] font-semibold text-on-surface-variant dark:text-gray-300 hover:text-primary dark:hover:text-[#6495ed] transition-colors duration-200" href="#ventures" data-nav-link>Ventures</a>
+                <span class="text-amber-500 dark:text-amber-400 font-bold text-[20px]">|</span>
+                <a class="font-body-md text-[18px] font-semibold text-on-surface-variant dark:text-gray-300 hover:text-primary dark:hover:text-[#6495ed] transition-colors duration-200" href="#skills" data-nav-link>Skills</a>
+                <span class="text-amber-500 dark:text-amber-400 font-bold text-[20px]">|</span>
+                <a class="font-body-md text-[18px] font-semibold text-on-surface-variant dark:text-gray-300 hover:text-primary dark:hover:text-[#6495ed] transition-colors duration-200" href="#contact" data-nav-link>Contact</a>
+            </div>
+
+            <div class="flex items-center gap-md">
+                <!-- Theme Toggle Button -->
+                <button id="theme-toggle" class="p-2 rounded-full hover:bg-surface-container-low dark:hover:bg-slate-800 transition-colors text-on-surface dark:text-gray-300" aria-label="Toggle Dark Mode">
+                    <span id="theme-toggle-icon" class="material-symbols-outlined text-[24px]">dark_mode</span>
+                </button>
+
+                <!-- Mobile Menu Button -->
+                <button id="mobile-menu-btn" class="lg:hidden p-2 rounded-full hover:bg-surface-container-low dark:hover:bg-slate-800 transition-colors text-on-surface dark:text-gray-300" aria-label="Open navigation menu">
+                    <span class="material-symbols-outlined text-[24px]">menu</span>
+                </button>
+
+                <a href="#contact" class="hidden sm:inline-block bg-primary hover:bg-[#003ea8] text-white px-md py-xs rounded-full font-label-md hover:scale-105 active:scale-95 transition-all duration-200 ease-out-expo shadow-lg shadow-primary/20">
+                    Get in Touch
+                </a>
+            </div>
+        </div>
+        
+        <!-- Mobile Dropdown Navigation -->
+        <div id="mobile-nav" class="hidden lg:hidden border-t border-outline-variant/30 dark:border-outline/10 bg-white/95 dark:bg-[#0b0f19]/95 backdrop-blur-xl absolute top-28 left-0 w-full flex flex-col p-6 space-y-4 shadow-lg transition-all duration-300 ease-in-out">
+            <a class="font-semibold text-primary dark:text-[#6495ed] py-2" href="#home" data-mobile-link>Home</a>
+            <a class="font-semibold text-on-surface-variant dark:text-gray-300 hover:text-primary py-2" href="#about" data-mobile-link>About</a>
+            <a class="font-semibold text-on-surface-variant dark:text-gray-300 hover:text-primary py-2" href="#legacy" data-mobile-link>Impact</a>
+            <a class="font-semibold text-on-surface-variant dark:text-gray-300 hover:text-primary py-2" href="#experience" data-mobile-link>Experience</a>
+            <a class="font-semibold text-on-surface-variant dark:text-gray-300 hover:text-primary py-2" href="#ventures" data-mobile-link>Ventures</a>
+            <a class="font-semibold text-on-surface-variant dark:text-gray-300 hover:text-primary py-2" href="#skills" data-mobile-link>Skills</a>
+            <a class="font-semibold text-on-surface-variant dark:text-gray-300 hover:text-primary py-2" href="#contact" data-mobile-link>Contact</a>
+            <a href="#contact" class="bg-primary text-white text-center py-3 rounded-xl font-label-md" data-mobile-link>Get in Touch</a>
+        </div>
+    </nav>
+
+    <!-- Page 1: Home Hero -->
+    <section class="relative min-h-screen flex items-center justify-center pt-28 overflow-hidden" id="home">
+        <!-- Canvas for dynamic flowing background shader -->
+        <div class="absolute inset-0 w-full h-full opacity-40 dark:opacity-50 transition-all duration-1000 z-0">
+            <canvas id="shader-canvas" class="block w-full h-full"></canvas>
+        </div>
+
+        <!-- Faint Background Portrait Image (Samar-samar) -->
+        <div class="absolute inset-0 w-full h-full z-0 pointer-events-none overflow-hidden opacity-[0.25] dark:opacity-[0.20]">
+            <img src="hero_bg.jpg" alt="Background silhouette" class="w-full h-full object-cover object-[center_40%] filter grayscale blur-[1px]">
+        </div>
+
+        <div class="w-full px-6 md:px-12 xl:px-16 grid grid-cols-1 lg:grid-cols-2 gap-xl relative z-10 items-center py-12">
+            <!-- Hero Left: Text Content -->
+            <div class="space-y-lg flex flex-col items-center lg:items-start text-center lg:text-left reveal-element active w-full">
+                <div class="space-y-sm">
+                    <span class="inline-block px-sm py-xs bg-primary-container/10 text-primary dark:text-[#6495ed] rounded-full font-label-md font-semibold">Available for New Projects</span>
+                    <div class="text-lg sm:text-xl md:text-2xl font-display font-bold text-primary dark:text-[#6495ed] italic tracking-wider uppercase mt-3">
+                        MUHAMMAD FAIZAL BIN NOR HAZANI
+                    </div>
+                    <h1 class="font-display text-4xl sm:text-5xl md:text-6xl lg:text-[64px] font-bold text-on-surface dark:text-white leading-tight tracking-tighter">
+                        Engineering Scalable <br><span class="text-primary dark:text-[#6495ed]">Digital Portfolios</span>.
+                    </h1>
+                    <div class="flex flex-wrap gap-xs justify-center lg:justify-start items-center text-on-surface-variant dark:text-gray-300 pt-2">
+                        <span class="font-semibold font-display text-lg sm:text-xl">Frontend Web Developer</span>
+                        <span class="text-outline text-xl">•</span>
+                        <span class="font-semibold font-display text-lg sm:text-xl">IT Innovator</span>
+                        <span class="text-outline text-xl">•</span>
+                        <span class="font-semibold font-display text-lg sm:text-xl">Digital Entrepreneur</span>
+                    </div>
+                </div>
+                
+                <div class="flex flex-wrap gap-md pt-md justify-center lg:justify-start w-full">
+                    <a class="bg-primary hover:bg-[#003ea8] text-white px-lg py-sm rounded-xl font-label-md hover:translate-y-[-4px] transition-all shadow-xl shadow-primary/30 flex items-center gap-xs" href="#about" aria-label="View Muhammad Faizal's software and web development portfolio projects">
+                        View Portfolio <span class="material-symbols-outlined">arrow_forward</span>
+                    </a>
+                    <button id="download-resume-btn" class="bg-white dark:bg-slate-800 text-on-surface dark:text-white border border-outline-variant/50 dark:border-outline/20 px-lg py-sm rounded-xl font-label-md hover:bg-surface-container-low dark:hover:bg-slate-700 transition-all flex items-center gap-xs shadow-sm" aria-label="Download Muhammad Faizal's professional resume PDF">
+                        Download Resume <span class="material-symbols-outlined">download</span>
+                    </button>
+                    <a href="#contact" class="text-primary dark:text-[#6495ed] font-bold px-lg py-sm font-label-md hover:underline flex items-center gap-xs group" aria-label="Contact Muhammad Faizal for business inquiries and web engineering roles">
+                        Hire Me <span class="material-symbols-outlined group-hover:translate-x-1 transition-transform">send</span>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Hero Right: Portrait Image -->
+            <div class="flex justify-center lg:justify-end z-10 reveal-element active w-full">
+                <div class="relative w-full max-w-[420px] aspect-[4/5] rounded-[48px] overflow-hidden shadow-2xl transition-transform duration-700 hover:rotate-1 group border-4 border-white dark:border-slate-800">
+                    <img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-1000" 
+                         alt="Muhammad Faizal portrait" 
+                         src="profile.jpg">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Scroll Indicator -->
+        <div class="absolute bottom-12 left-1/2 -translate-x-1/2 flex flex-col items-center gap-base text-outline dark:text-gray-400 opacity-60 scroll-indicator-anim cursor-pointer" onclick="document.getElementById('about').scrollIntoView({behavior: 'smooth'})">
+            <span class="text-label-sm uppercase tracking-widest font-bold text-sm">Scroll</span>
+            <span class="material-symbols-outlined">expand_more</span>
+        </div>
+    </section>
+
+    <!-- Statistics Section -->
+    <section class="py-xl bg-surface-container-lowest dark:bg-slate-900/60 relative border-y border-outline-variant/20 dark:border-outline/10 overflow-hidden">
+        <div class="w-full px-6 md:px-12 xl:px-16">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-lg">
+                <div class="p-lg glass-card rounded-3xl hover:scale-105 transition-transform duration-300 premium-shadow reveal-element">
+                    <span class="text-primary dark:text-[#6495ed] font-display text-[64px] font-bold block mb-xs">05+</span>
+                    <h3 class="font-headline-md text-headline-md text-on-surface dark:text-white">Years of Experience</h3>
+                    <p class="text-on-surface-variant dark:text-gray-400 font-body-md mt-sm">Crafting digital strategies and building tech solutions across various industries.</p>
+                </div>
+                <div class="p-lg glass-card rounded-3xl hover:scale-105 transition-transform duration-300 premium-shadow reveal-element">
+                    <span class="text-primary dark:text-[#6495ed] font-display text-[64px] font-bold block mb-xs">03</span>
+                    <h3 class="font-headline-md text-headline-md text-on-surface dark:text-white">Business Ventures</h3>
+                    <p class="text-on-surface-variant dark:text-gray-400 font-body-md mt-sm">Successfully launched and scaled digital platforms focusing on user-centric services.</p>
+                </div>
+                <div class="p-lg glass-card rounded-3xl hover:scale-105 transition-transform duration-300 premium-shadow reveal-element">
+                    <span class="text-primary dark:text-[#6495ed] font-display text-[64px] font-bold block mb-xs">50+</span>
+                    <h3 class="font-headline-md text-headline-md text-on-surface dark:text-white">Marketing Projects</h3>
+                    <p class="text-on-surface-variant dark:text-gray-400 font-body-md mt-sm">Data-driven campaigns that generated measurable growth and high ROI for clients.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Page 2: About Me & Journey -->
+    <section class="py-xl bg-white dark:bg-[#0b0f19] relative" id="about">
+        <div class="w-full px-6 md:px-12 xl:px-16">
+            <div class="mb-xl max-w-2xl reveal-element">
+                <span class="text-primary dark:text-[#6495ed] font-label-md uppercase tracking-[0.2em] mb-sm block font-bold">My Story</span>
+                <h2 class="font-display text-3xl sm:text-4xl font-bold text-on-surface dark:text-white mb-md">Blending Strategy with Engineering.</h2>
+                <p class="font-body-lg text-body-lg text-on-surface-variant dark:text-gray-300 leading-relaxed">
+                    As an Information Technology (IT) Student at UiTM Shah Alam, Software Developer, and Digital Entrepreneur, I leverage a multidisciplinary background that merges computer science principles with real-world business scaling. From analyzing systematic warehouse operations to launching independent e-commerce ventures and mastering technologies like Java, React, and SQL, I design high-performance, responsive websites and software architectures tailored to modern industry demands.
+                </p>
+            </div>
+            
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-xl">
+                <!-- Timeline Story -->
+                <div class="lg:col-span-7 relative reveal-element">
+                    <!-- Central Timeline Line -->
+                    <div class="absolute left-6 md:left-1/2 top-0 bottom-0 w-0.5 timeline-line hidden md:block"></div>
+                    <div class="space-y-xl relative">
+                        <!-- Timeline Item 1 -->
+                        <div class="relative flex flex-col md:flex-row items-center gap-md group">
+                            <div class="flex-1 md:text-right hidden md:block">
+                                <span class="font-label-md text-outline dark:text-gray-400 font-semibold">The Beginning</span>
+                            </div>
+                            <div class="w-12 h-12 rounded-full bg-white dark:bg-slate-800 border-2 border-primary flex items-center justify-center z-10 group-hover:scale-110 transition-transform">
+                                <span class="material-symbols-outlined text-primary text-lg">inventory_2</span>
+                            </div>
+                            <div class="flex-1 p-lg glass-card rounded-2xl group-hover:shadow-lg transition-shadow">
+                                <h4 class="font-headline-md text-headline-md text-primary dark:text-[#6495ed] mb-xs">Warehouse Assistant</h4>
+                                <p class="font-body-md text-on-surface-variant dark:text-gray-400 italic mb-sm">Mastering Discipline & Logic</p>
+                                <p class="text-base dark:text-gray-300">Foundational experience in complex logistics, inventory mapping, and systematic operational workflows.</p>
+                            </div>
+                        </div>
+                        <!-- Timeline Item 2 -->
+                        <div class="relative flex flex-col md:flex-row items-center gap-md group">
+                            <div class="flex-1 p-lg glass-card rounded-2xl order-3 md:order-1 group-hover:shadow-lg transition-shadow">
+                                <h4 class="font-headline-md text-headline-md text-primary dark:text-[#6495ed] mb-xs">Live Host</h4>
+                                <p class="font-body-md text-on-surface-variant dark:text-gray-400 italic mb-sm">Engagement & Communication</p>
+                                <p class="text-base dark:text-gray-300">Developed peak-performance public communication and negotiation skills in real-time online commercial settings.</p>
+                            </div>
+                            <div class="w-12 h-12 rounded-full bg-white dark:bg-slate-800 border-2 border-primary flex items-center justify-center z-10 order-2 group-hover:scale-110 transition-transform">
+                                <span class="material-symbols-outlined text-primary text-lg">record_voice_over</span>
+                            </div>
+                            <div class="flex-1 hidden md:block order-3">
+                                <span class="font-label-md text-outline dark:text-gray-400 font-semibold">Media Transition</span>
+                            </div>
+                        </div>
+                        <!-- Timeline Item 3 -->
+                        <div class="relative flex flex-col md:flex-row items-center gap-md group">
+                            <div class="flex-1 md:text-right hidden md:block">
+                                <span class="font-label-md text-outline dark:text-gray-400 font-semibold">Career Pivot</span>
+                            </div>
+                            <div class="w-12 h-12 rounded-full bg-white dark:bg-slate-800 border-2 border-primary flex items-center justify-center z-10 group-hover:scale-110 transition-transform">
+                                <span class="material-symbols-outlined text-primary text-lg">trending_up</span>
+                            </div>
+                            <div class="flex-1 p-lg glass-card rounded-2xl group-hover:shadow-lg transition-shadow">
+                                <h4 class="font-headline-md text-headline-md text-primary dark:text-[#6495ed] mb-xs">Digital Marketing</h4>
+                                <p class="font-body-md text-on-surface-variant dark:text-gray-400 italic mb-sm">Strategic Growth Specialist</p>
+                                <p class="text-base dark:text-gray-300">Executed high-impact campaigns across social and search platforms. Specialize in ROI tracking and SEO.</p>
+                            </div>
+                        </div>
+                        <!-- Timeline Item 4 -->
+                        <div class="relative flex flex-col md:flex-row items-center gap-md group">
+                            <div class="flex-1 p-lg glass-card rounded-2xl order-3 md:order-1 group-hover:shadow-lg transition-shadow">
+                                <h4 class="font-headline-md text-headline-md text-primary dark:text-[#6495ed] mb-xs">Entrepreneur</h4>
+                                <p class="font-body-md text-on-surface-variant dark:text-gray-400 italic mb-sm">Founder & Visionary</p>
+                                <p class="text-base dark:text-gray-300">Launched independent e-commerce ventures, handling end-to-end supply chains, marketing campaigns, and P&L statements.</p>
+                            </div>
+                            <div class="w-12 h-12 rounded-full bg-white dark:bg-slate-800 border-2 border-primary flex items-center justify-center z-10 order-2 group-hover:scale-110 transition-transform">
+                                <span class="material-symbols-outlined text-primary text-lg">rocket_launch</span>
+                            </div>
+                            <div class="flex-1 hidden md:block order-3">
+                                <span class="font-label-md text-outline dark:text-gray-400 font-semibold">Ownership</span>
+                            </div>
+                        </div>
+                        <!-- Timeline Item 5 -->
+                        <div class="relative flex flex-col md:flex-row items-center gap-md group">
+                            <div class="flex-1 md:text-right hidden md:block">
+                                <span class="font-label-md text-outline dark:text-gray-400 font-semibold">Acquisition of Knowledge</span>
+                            </div>
+                            <div class="w-12 h-12 rounded-full bg-white dark:bg-slate-800 border-2 border-primary flex items-center justify-center z-10 group-hover:scale-110 transition-transform">
+                                <span class="material-symbols-outlined text-primary text-lg">terminal</span>
+                            </div>
+                            <div class="flex-1 p-lg glass-card rounded-2xl group-hover:shadow-lg transition-shadow">
+                                <h4 class="font-headline-md text-headline-md text-primary dark:text-[#6495ed] mb-xs">IT Student</h4>
+                                <p class="font-body-md text-on-surface-variant dark:text-gray-400 italic mb-sm">The Technical Deep-Dive</p>
+                                <p class="text-base dark:text-gray-300">Deepening technical expertise in software development, database designs, and computer networks at UiTM Shah Alam.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Values & Mission Bento Grid -->
+                <div class="lg:col-span-5 flex flex-col gap-md reveal-element">
+                    <div class="p-lg bg-surface-container-low dark:bg-slate-900/40 rounded-[32px] space-y-md border border-outline-variant/30 dark:border-outline/10">
+                        <span class="material-symbols-outlined text-primary dark:text-[#6495ed] text-4xl">verified</span>
+                        <h3 class="font-headline-md text-headline-md text-on-surface dark:text-white">Values</h3>
+                        <p class="font-body-md text-on-surface-variant dark:text-gray-300">Integrity, continuous learning, and operational discipline in every system architecture or marketing campaign.</p>
+                        <div class="flex flex-wrap gap-xs">
+                            <span class="px-sm py-xs bg-white dark:bg-slate-800 rounded-full text-base font-medium border border-outline-variant/30 dark:border-outline/10 dark:text-white">Discipline</span>
+                            <span class="px-sm py-xs bg-white dark:bg-slate-800 rounded-full text-base font-medium border border-outline-variant/30 dark:border-outline/10 dark:text-white">Innovation</span>
+                            <span class="px-sm py-xs bg-white dark:bg-slate-800 rounded-full text-base font-medium border border-outline-variant/30 dark:border-outline/10 dark:text-white">Reliability</span>
+                        </div>
+                    </div>
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-md">
+                        <div class="p-lg bg-primary-fixed-dim bg-[#2563eb]/10 border border-[#2563eb]/20 rounded-[32px]">
+                            <h4 class="font-headline-md text-headline-md text-primary dark:text-[#6495ed] mb-sm font-bold">Mission</h4>
+                            <p class="text-on-surface-variant dark:text-gray-300 font-body-md leading-snug">To empower businesses through the fusion of high-level marketing strategy and robust engineering.</p>
+                        </div>
+                        <div class="p-lg bg-[#006229]/10 border border-[#006229]/20 rounded-[32px]">
+                            <h4 class="font-headline-md text-headline-md text-tertiary dark:text-[#4ae176] mb-sm font-bold">Vision</h4>
+                            <p class="text-on-surface-variant dark:text-gray-300 font-body-md leading-snug">To lead digital transformations, creating systems that drive real-world value and permanent business scaling.</p>
+                        </div>
+                    </div>
+                    <div class="p-lg glass-card rounded-[32px]">
+                        <h3 class="font-headline-md text-headline-md text-on-surface dark:text-white mb-sm">Career Objective</h3>
+                        <p class="font-body-md text-on-surface-variant dark:text-gray-300">I aim to transition into senior technical and product roles where my unique background in business growth, marketing strategy, and logistics can drive massive system value.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Page 3: Legacy & Impact -->
+    <section class="py-xl bg-surface-container-low dark:bg-slate-900/30 relative overflow-hidden" id="legacy">
+        <div class="w-full px-6 md:px-12 xl:px-16">
+            <!-- Header -->
+            <div class="mb-xl max-w-2xl reveal-element">
+                <span class="text-primary dark:text-[#6495ed] font-label-md uppercase tracking-[0.2em] mb-sm block font-bold">Sustainability</span>
+                <h2 class="font-display text-3xl sm:text-4xl font-bold text-on-surface dark:text-white mb-md">Defining the Legacy</h2>
+                <p class="font-body-lg text-body-lg text-on-surface-variant dark:text-gray-300 leading-relaxed">
+                    Engineering a long-term vision of sustainable, tech-driven business ecosystems. We don't just build software; we architect the infrastructure of tomorrow's digital society.
+                </p>
+            </div>
+
+            <!-- Visual Storytelling Feature Image -->
+            <section class="relative h-[300px] sm:h-[400px] lg:h-[550px] rounded-[32px] overflow-hidden mb-16 shadow-2xl group border border-outline-variant/30 dark:border-outline/10 reveal-element">
+                <div class="absolute inset-0 bg-gradient-to-t from-on-background/80 via-on-background/20 to-transparent z-10"></div>
+                <div class="absolute inset-0 transition-transform duration-1000 group-hover:scale-105" 
+                     role="img" aria-label="Modern cloud server architecture showing blue data networking interfaces"
+                     style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuBclkek1YovEevwJVVjDalSgXA5pKBI4_mKbZDhdLORV5N5tAMGhzITHwUFL5xi82P31jBWY2yxz9-twnErpyKqdkaoqq1pE2XmvbKpYnJEqsfxFaPOkTUR9SpdyXoCCkjs8WXoPAYClpRiz5Kv2AR9GZ2NyAzR86tTUVhY580s4URwRJ9VeyS0XuPaywySvYrasNlDBv9GjakJIiaOG87kfh9wY2jP9XC1KKhErmSo01JT8d37Xi8yMNxYbDbBhvs2C1Oo5lRPJmQ'); background-size: cover; background-position: center;">
+                </div>
+                <div class="absolute bottom-6 sm:bottom-12 left-6 sm:left-12 z-20 max-w-lg">
+                    <h3 class="text-2xl sm:text-3xl font-display font-bold text-white mb-3 sm:mb-4">Digital Infrastructure</h3>
+                    <p class="text-white/80 text-base sm:text-lg leading-relaxed">
+                        The bedrock of every ecosystem we build—robust, scalable, secure, and engineered for permanent digital uptime.
+                    </p>
+                </div>
+            </section>
+
+            <!-- Core Pillars -->
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16 reveal-element">
+                <!-- Pillar 1 -->
+                <div class="bg-surface-container-lowest dark:bg-slate-900/60 p-8 sm:p-10 rounded-[24px] premium-shadow premium-shadow-hover transition-all duration-300 border border-outline-variant/20 dark:border-outline/10">
+                    <div class="w-14 h-14 bg-primary/10 rounded-2xl flex items-center justify-center text-primary dark:text-[#6495ed] mb-8">
+                        <span class="material-symbols-outlined text-3xl">lightbulb</span>
+                    </div>
+                    <h4 class="text-2xl font-display font-bold text-on-surface dark:text-white mb-4">Innovation</h4>
+                    <p class="text-on-surface-variant dark:text-gray-400 leading-relaxed">Pushing the boundaries of what's possible with cutting-edge tech integrations and future-proof methodologies.</p>
+                </div>
+                <!-- Pillar 2 -->
+                <div class="bg-surface-container-lowest dark:bg-slate-900/60 p-8 sm:p-10 rounded-[24px] premium-shadow premium-shadow-hover transition-all duration-300 border border-outline-variant/20 dark:border-outline/10">
+                    <div class="w-14 h-14 bg-tertiary/10 rounded-2xl flex items-center justify-center text-tertiary dark:text-[#4ae176] mb-8">
+                        <span class="material-symbols-outlined text-3xl">eco</span>
+                    </div>
+                    <h4 class="text-2xl font-display font-bold text-on-surface dark:text-white mb-4">Sustainability</h4>
+                    <p class="text-on-surface-variant dark:text-gray-400 leading-relaxed">Building systems that endure, focusing on minimal technical debt, clean codebase structure, and digital resource efficiency.</p>
+                </div>
+                <!-- Pillar 3 -->
+                <div class="bg-surface-container-lowest dark:bg-slate-900/60 p-8 sm:p-10 rounded-[24px] premium-shadow premium-shadow-hover transition-all duration-300 border border-outline-variant/20 dark:border-outline/10">
+                    <div class="w-14 h-14 bg-secondary/10 rounded-2xl flex items-center justify-center text-secondary dark:text-cyan-400 mb-8">
+                        <span class="material-symbols-outlined text-3xl">verified_user</span>
+                    </div>
+                    <h4 class="text-2xl font-display font-bold text-on-surface dark:text-white mb-4">Empowerment</h4>
+                    <p class="text-on-surface-variant dark:text-gray-400 leading-relaxed">Creating highly optimized digital systems that grant users autonomy and strength, fostering growth across global communities.</p>
+                </div>
+            </div>
+
+            <!-- Quote Block -->
+            <div class="py-12 border-t border-outline-variant/30 dark:border-outline/10 flex flex-col items-center text-center px-6 reveal-element">
+                <blockquote class="text-2xl sm:text-3xl md:text-4xl font-display font-bold text-on-surface dark:text-white italic max-w-4xl leading-tight mb-8">
+                    "A legacy isn't just what we build, but the impact that remains."
+                </blockquote>
+                <cite class="not-italic flex items-center gap-4">
+                    <div class="w-12 h-12 rounded-full overflow-hidden border-2 border-primary/20">
+                        <img class="w-full h-full object-cover object-top" alt="Muhammad Faizal portrait" src="profile.jpg">
+                    </div>
+                    <div class="text-left">
+                        <div class="font-bold text-on-surface dark:text-white">Muhammad Faizal</div>
+                        <div class="text-base text-on-surface-variant dark:text-gray-400">Software Developer & Digital Entrepreneur</div>
+                    </div>
+                </cite>
+            </div>
+
+            <!-- Impact Statistics -->
+            <div class="bg-white dark:bg-slate-900/60 rounded-[24px] p-8 sm:p-12 border border-outline-variant/30 dark:border-outline/10 reveal-element">
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-12 text-center">
+                    <div class="group">
+                        <div class="text-5xl sm:text-6xl font-display font-bold text-primary dark:text-[#6495ed] mb-2 transition-transform group-hover:scale-105 duration-300">5+</div>
+                        <div class="text-lg font-semibold text-on-surface dark:text-white mb-1">Communities Impacted</div>
+                        <p class="text-on-surface-variant dark:text-gray-400 text-base">Direct engagement and digital platform upliftment</p>
+                    </div>
+                    <div class="group border-y md:border-y-0 md:border-x border-outline-variant/30 dark:border-outline/10 py-12 md:py-0">
+                        <div class="text-5xl sm:text-6xl font-display font-bold text-primary dark:text-[#6495ed] mb-2 transition-transform group-hover:scale-105 duration-300">10k+</div>
+                        <div class="text-lg font-semibold text-on-surface dark:text-white mb-1">Lives Touched</div>
+                        <p class="text-on-surface-variant dark:text-gray-400 text-base">Via custom digital business and utility solutions</p>
+                    </div>
+                    <div class="group">
+                        <div class="text-5xl sm:text-6xl font-display font-bold text-primary dark:text-[#6495ed] mb-2 transition-transform group-hover:scale-105 duration-300">24/7</div>
+                        <div class="text-lg font-semibold text-on-surface dark:text-white mb-1">Service Availability</div>
+                        <p class="text-on-surface-variant dark:text-gray-400 text-base">Consistent platform uptime for digital platforms</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Page 4: Experience & Ventures -->
+    <section class="py-xl bg-white dark:bg-[#0b0f19]" id="experience">
+        <div class="w-full px-6 md:px-12 xl:px-16">
+            <!-- Section Header -->
+            <div class="mb-xl max-w-2xl reveal-element">
+                <span class="text-primary dark:text-[#6495ed] font-label-md uppercase tracking-[0.2em] mb-sm block font-bold">Career & History</span>
+                <h2 class="font-display text-3xl sm:text-4xl font-bold text-on-surface dark:text-white mb-md">Professional Experience</h2>
+                <p class="font-body-lg text-body-lg text-on-surface-variant dark:text-gray-300 leading-relaxed">
+                    A career timeline defined by adaptability, operational discipline, and creative communication across diverse business areas.
+                </p>
+            </div>
+
+            <!-- Professional Timeline -->
+            <div class="relative reveal-element mb-24">
+                <!-- Vertical Center Line -->
+                <div class="absolute left-6 md:left-1/2 top-0 bottom-0 w-px bg-outline-variant/60 dark:bg-outline/25 -translate-x-1/2 hidden md:block"></div>
+                <div class="space-y-xl">
+                    
+                    <!-- Item 1: Grid System Marketing - Warehouse -->
+                    <div class="relative grid md:grid-cols-2 gap-lg items-center group">
+                        <div class="md:text-right">
+                            <span class="inline-block px-sm py-1 bg-primary/10 text-primary dark:text-[#6495ed] rounded-full text-label-sm font-semibold mb-2">2023 — Present</span>
+                            <h3 class="font-display text-2xl font-bold text-primary dark:text-[#6495ed]">Grid System Marketing</h3>
+                            <p class="font-label-md text-on-surface-variant dark:text-gray-400 uppercase tracking-wider mb-4">Warehouse Assistant</p>
+                        </div>
+                        <div class="absolute left-[20px] md:left-1/2 w-4 h-4 rounded-full bg-primary border-4 border-white dark:border-slate-900 -translate-x-1/2 z-10"></div>
+                        <div class="glass-card p-lg rounded-xl shadow-sm hover:scale-[1.01] transition-all duration-300 ease-out-expo ml-8 md:ml-0">
+                            <div class="flex items-center gap-sm mb-4">
+                                <span class="material-symbols-outlined text-primary text-2xl" style="font-variation-settings: 'FILL' 1;">inventory_2</span>
+                                <span class="font-headline-md text-[18px] font-bold text-on-surface dark:text-white">Operational Efficiency & Logistics</span>
+                            </div>
+                            <ul class="space-y-sm text-on-surface-variant dark:text-gray-300 font-body-md text-base">
+                                <li class="flex items-start gap-xs"><span class="material-symbols-outlined text-[#22C55E] text-base mt-0.5">check_circle</span> Managing large-scale inventory with high precision and optimized flow structures.</li>
+                                <li class="flex items-start gap-xs"><span class="material-symbols-outlined text-[#22C55E] text-base mt-0.5">check_circle</span> Implementing new database logging layouts to reduce shipping discrepancies.</li>
+                                <li class="flex items-start gap-xs"><span class="material-symbols-outlined text-[#22C55E] text-base mt-0.5">check_circle</span> Coordinating product distributions for peak seasonal demand windows.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Item 2: Grid System Marketing - Live Host -->
+                    <div class="relative grid md:grid-cols-2 gap-lg items-center group">
+                        <div class="md:order-2">
+                            <span class="inline-block px-sm py-1 bg-secondary/10 text-secondary dark:text-cyan-400 rounded-full text-label-sm font-semibold mb-2">2022 — 2023</span>
+                            <h3 class="font-display text-2xl font-bold text-secondary dark:text-cyan-400">Grid System Marketing</h3>
+                            <p class="font-label-md text-on-surface-variant dark:text-gray-400 uppercase tracking-wider mb-4">Live Host & Content Creator</p>
+                        </div>
+                        <div class="absolute left-[20px] md:left-1/2 w-4 h-4 rounded-full bg-secondary border-4 border-white dark:border-slate-900 -translate-x-1/2 z-10"></div>
+                        <div class="glass-card p-lg rounded-xl shadow-sm hover:scale-[1.01] transition-all duration-300 ease-out-expo md:order-1 ml-8 md:ml-0">
+                            <div class="flex items-center gap-sm mb-4">
+                                <span class="material-symbols-outlined text-secondary text-2xl" style="font-variation-settings: 'FILL' 1;">videocam</span>
+                                <span class="font-headline-md text-[18px] font-bold text-on-surface dark:text-white">Digital Commerce Strategy</span>
+                            </div>
+                            <p class="text-on-surface-variant dark:text-gray-300 text-base leading-relaxed mb-4">
+                                Pioneered the brand's live e-commerce strategy, driving customer engagement through dynamic storytelling and live technical showcasing.
+                            </p>
+                            <div class="flex flex-wrap gap-xs">
+                                <span class="bg-surface-container-low dark:bg-slate-800 px-sm py-1 rounded-full text-label-sm text-on-surface-variant dark:text-gray-300">OBS Studio</span>
+                                <span class="bg-surface-container-low dark:bg-slate-800 px-sm py-1 rounded-full text-label-sm text-on-surface-variant dark:text-gray-300">Video Editing</span>
+                                <span class="bg-surface-container-low dark:bg-slate-800 px-sm py-1 rounded-full text-label-sm text-on-surface-variant dark:text-gray-300">Direct Marketing</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Item 3: Aswat Pesona -->
+                    <div class="relative grid md:grid-cols-2 gap-lg items-center group">
+                        <div class="md:text-right">
+                            <span class="inline-block px-sm py-1 bg-tertiary/10 text-tertiary dark:text-[#4ae176] rounded-full text-label-sm font-semibold mb-2">2021 — 2022</span>
+                            <h3 class="font-display text-2xl font-bold text-tertiary dark:text-[#4ae176]">Aswat Pesona</h3>
+                            <p class="font-label-md text-on-surface-variant dark:text-gray-400 uppercase tracking-wider mb-4">Production & Steam Operator</p>
+                        </div>
+                        <div class="absolute left-[20px] md:left-1/2 w-4 h-4 rounded-full bg-tertiary border-4 border-white dark:border-slate-900 -translate-x-1/2 z-10"></div>
+                        <div class="glass-card p-lg rounded-xl shadow-sm hover:scale-[1.01] transition-all duration-300 ease-out-expo ml-8 md:ml-0">
+                            <div class="flex items-center gap-sm mb-4">
+                                <span class="material-symbols-outlined text-tertiary text-2xl" style="font-variation-settings: 'FILL' 1;">precision_manufacturing</span>
+                                <span class="font-headline-md text-[18px] font-bold text-on-surface dark:text-white">Machinery Operations & Quality Control</span>
+                            </div>
+                            <p class="text-on-surface-variant dark:text-gray-300 text-base leading-relaxed mb-4">
+                                Managed industrial boiler systems and production line output, maintaining top efficiency with a zero-incident safety record.
+                            </p>
+                            <div class="flex gap-md pt-2">
+                                <div class="text-center">
+                                    <div class="text-[20px] font-bold text-tertiary dark:text-[#4ae176]">100%</div>
+                                    <div class="text-base text-outline uppercase tracking-wider font-semibold">Safety Rate</div>
+                                </div>
+                                <div class="text-center">
+                                    <div class="text-[20px] font-bold text-tertiary dark:text-[#4ae176]">2,400</div>
+                                    <div class="text-base text-outline uppercase tracking-wider font-semibold">Daily Yield</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- Page 3: Ventures Bento Section -->
+            <div class="py-xl border-t border-outline-variant/30 dark:border-outline/10" id="ventures">
+                <div class="flex flex-col md:flex-row justify-between items-end mb-lg reveal-element">
+                    <div class="max-w-xl">
+                        <span class="text-primary dark:text-[#6495ed] font-label-md uppercase tracking-[0.2em] mb-sm block font-bold">Entrepreneurship</span>
+                        <h2 class="font-display text-3xl sm:text-4xl font-bold text-on-surface dark:text-white mb-sm">Business Ventures</h2>
+                        <p class="text-on-surface-variant dark:text-gray-300">Building independent digital enterprises and logistical scaling solutions since 2020.</p>
+                    </div>
+                </div>
+
+                <!-- Bento Grid Layout -->
+                <div class="grid grid-cols-1 md:grid-cols-12 gap-md reveal-element">
+
+                    <!-- Twin Topup Enterprise -->
+                    <div class="md:col-span-6 glass-card rounded-3xl overflow-hidden group hover:shadow-xl transition-all duration-500 ease-out-expo relative border border-outline-variant/20 dark:border-outline/10">
+                        <div class="h-64 overflow-hidden relative">
+                            <div class="w-full h-full bg-cover bg-center group-hover:scale-105 transition-transform duration-700" 
+                                 style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuDQO6DxmA8RCos0V0QGfO4y9dJAdenh_1abHxLKjBxOR-56VQRl5KQQlgiN5sAZnQEL53g5MH1ru7K7GlfpDJtrMDHUQdftqXS10hsq1Q2TKk1prSisPw6946zbwuq9lmIpzDjWjjirxb8uQwAVpeTMievGqZ3XwmuYUxSIoyHGsb2GnxIKSB0Td6xb1NFmTYvX9-MW1okZhhyrvxyVda5z6wUQlLnJePhDv0qlN_Qey5-sRltjR8bIcGxg_ToiR8vUtOd4LxNimxE');"></div>
+                            <div class="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent"></div>
+                            <div class="absolute bottom-md left-md">
+                                <span class="bg-primary text-white px-sm py-1 rounded-full text-label-sm font-bold uppercase tracking-wider font-display text-sm">Est. 2020</span>
+                                <h4 class="text-3xl font-display font-bold text-white mt-2">Twin Topup Enterprise</h4>
+                            </div>
+                        </div>
+                        <div class="p-lg">
+                            <div class="flex flex-col sm:flex-row justify-between items-start gap-4 mb-md">
+                                <p class="text-on-surface-variant dark:text-gray-300 font-body-md text-base max-w-lg leading-relaxed">
+                                    A high-volume digital utility and transaction platform. Optimized using automated payment workflows and secure database logging to process online gaming and global telecom micro-transactions efficiently.
+                                </p>
+                                <span class="material-symbols-outlined text-primary dark:text-[#6495ed] text-4xl">payments</span>
+                            </div>
+                            <div class="flex items-center gap-lg">
+                                <div class="flex items-center gap-xs text-on-surface dark:text-white">
+                                    <span class="material-symbols-outlined text-primary dark:text-[#6495ed] text-base">trending_up</span>
+                                    <span class="text-label-md font-bold text-sm">5k+ Completed Sales</span>
+                                </div>
+                                <div class="flex items-center gap-xs text-on-surface dark:text-white">
+                                    <span class="material-symbols-outlined text-primary dark:text-[#6495ed] text-base">group</span>
+                                    <span class="text-label-md font-bold text-sm">Active Customer Hub</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- OTA MY -->
+                    <div class="md:col-span-6 glass-card rounded-3xl overflow-hidden group hover:shadow-xl transition-all duration-500 ease-out-expo relative border border-outline-variant/20 dark:border-outline/10">
+                        <div class="h-64 overflow-hidden relative">
+                            <div class="w-full h-full bg-cover bg-center group-hover:scale-105 transition-transform duration-700" 
+                                 style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuDQO6DxmA8RCos0V0QGfO4y9dJAdenh_1abHxLKjBxOR-56VQRl5KQQlgiN5sAZnQEL53g5MH1ru7K7GlfpDJtrMDHUQdftqXS10hsq1Q2TKk1prSisPw6946zbwuq9lmIpzDjWjjirxb8uQwAVpeTMievGqZ3XwmuYUxSIoyHGsb2GnxIKSB0Td6xb1NFmTYvX9-MW1okZhhyrvxyVda5z6wUQlLnJePhDv0qlN_Qey5-sRltjR8bIcGxg_ToiR8vUtOd4LxNimxE');"></div>
+                            <div class="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent"></div>
+                            <div class="absolute bottom-md left-md">
+                                <span class="bg-secondary text-white px-sm py-1 rounded-full text-label-sm font-bold uppercase tracking-wider font-display text-sm">Est. 2022</span>
+                                <h4 class="text-3xl font-display font-bold text-white mt-2">OTA MY</h4>
+                            </div>
+                        </div>
+                        <div class="p-lg">
+                            <div class="flex flex-col sm:flex-row justify-between items-start gap-4 mb-md">
+                                <p class="text-on-surface-variant dark:text-gray-300 font-body-md text-base max-w-lg leading-relaxed">
+                                    A premier Malaysian telecommunication and digital reload gateway. Engineered utilizing custom API integrations, automated load balancing, and SQL databases to process wholesale server reloads, bill payments, and bulk telecom credit distribution.
+                                </p>
+                                <span class="material-symbols-outlined text-secondary dark:text-cyan-400 text-4xl">cell_tower</span>
+                            </div>
+                            <div class="flex items-center gap-lg">
+                                <div class="flex items-center gap-xs text-on-surface dark:text-white">
+                                    <span class="material-symbols-outlined text-secondary dark:text-cyan-400 text-base">bolt</span>
+                                    <span class="text-label-md font-bold text-sm">Instant Server Reloads</span>
+                                </div>
+                                <div class="flex items-center gap-xs text-on-surface dark:text-white">
+                                    <span class="material-symbols-outlined text-secondary dark:text-cyan-400 text-base">support_agent</span>
+                                    <span class="text-label-md font-bold text-sm">24/7 API Integration</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Chococrispy Enterprise -->
+                    <div class="md:col-span-4 glass-card rounded-3xl p-lg flex flex-col justify-between group hover:shadow-lg transition-all duration-300 border border-outline-variant/20 dark:border-outline/10">
+                        <div>
+                            <div class="w-12 h-12 bg-primary/10 rounded-2xl flex items-center justify-center text-primary dark:text-[#6495ed] mb-md">
+                                <span class="material-symbols-outlined">shopping_cart</span>
+                            </div>
+                            <h4 class="font-display text-2xl font-bold text-on-surface dark:text-white mb-2">Chococrispy Enterprise</h4>
+                            <p class="text-on-surface-variant dark:text-gray-400 text-base leading-relaxed">
+                                Direct-to-consumer gourmet food network. Built and managed sales agent hierarchies, optimizing scaling funnels.
+                            </p>
+                        </div>
+                        <div class="mt-8 pt-4 border-t border-outline-variant/30 dark:border-slate-800">
+                            <div class="flex justify-between items-center">
+                                <span class="text-label-sm text-outline dark:text-gray-400 font-semibold uppercase tracking-widest text-sm">Growth Index</span>
+                                <span class="text-[#22C55E] font-bold text-base">+24% MoM</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- BNY Trading -->
+                    <div class="md:col-span-4 glass-card rounded-3xl p-lg flex flex-col justify-between group hover:shadow-lg transition-all duration-300 border border-outline-variant/20 dark:border-outline/10">
+                        <div class="space-y-4">
+                            <div class="w-12 h-12 bg-primary/10 rounded-2xl flex items-center justify-center text-primary dark:text-[#6495ed]">
+                                <span class="material-symbols-outlined">smartphone</span>
+                            </div>
+                            <h4 class="font-display text-2xl font-bold text-on-surface dark:text-white">BNY Trading</h4>
+                            <p class="text-on-surface-variant dark:text-gray-400 text-base leading-relaxed">
+                                Managed premium smartphone dropshipping channels, establishing supply chains from international providers directly to domestic client hubs.
+                            </p>
+                        </div>
+                        <div class="mt-8 pt-4 border-t border-outline-variant/30 dark:border-slate-800">
+                            <div class="flex flex-wrap gap-xs">
+                                <span class="bg-surface-container-low dark:bg-slate-800 px-sm py-1 rounded-full text-base font-semibold text-on-surface-variant dark:text-gray-300">Supply Logistics</span>
+                                <span class="bg-surface-container-low dark:bg-slate-800 px-sm py-1 rounded-full text-base font-semibold text-on-surface-variant dark:text-gray-300">Dropshipping</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Marketing Strategy / Digital Campaigns -->
+                    <div class="md:col-span-4 glass-card rounded-3xl p-lg flex flex-col justify-between group hover:shadow-lg transition-all duration-300 border border-outline-variant/20 dark:border-outline/10">
+                        <div class="space-y-4">
+                            <div class="w-12 h-12 bg-primary/10 rounded-2xl flex items-center justify-center text-primary dark:text-[#6495ed]">
+                                <span class="material-symbols-outlined">ads_click</span>
+                            </div>
+                            <h4 class="font-display text-2xl font-bold text-on-surface dark:text-white">Digital Campaigns</h4>
+                            <p class="text-on-surface-variant dark:text-gray-400 text-base leading-relaxed">
+                                Formulating and running ROI-centered advertisement structures on Meta, Google, and TikTok Ads platforms to accelerate venture customer acquisitions.
+                            </p>
+                        </div>
+                        <div class="mt-8 pt-4 border-t border-outline-variant/30 dark:border-slate-800">
+                            <div class="flex flex-wrap gap-xs">
+                                <span class="bg-surface-container-low dark:bg-slate-800 px-sm py-1 rounded-full text-base font-semibold text-on-surface-variant dark:text-gray-300">Ad Optimizations</span>
+                                <span class="bg-surface-container-low dark:bg-slate-800 px-sm py-1 rounded-full text-base font-semibold text-on-surface-variant dark:text-gray-300">Audience Growth</span>
+                            </div>
+                        </div>
+                    </div>
+                </div> <!-- Close bento grid layout -->
+
+                <!-- Chococrispy Brand Showcase Section -->
+                <div class="mt-20 py-lg border-t border-outline-variant/30 dark:border-outline/10 reveal-element">
+                    <div class="text-center mb-xl">
+                        <span class="inline-block px-md py-1 bg-amber-500/10 text-amber-500 font-label-sm rounded-full mb-sm uppercase tracking-widest text-sm font-bold font-display">Featured Venture Showcase</span>
+                        <h3 class="font-display text-3xl sm:text-4xl font-bold text-on-surface dark:text-white">Chococrispy Gourmet Experience</h3>
+                        <p class="text-on-surface-variant dark:text-gray-300 max-w-xl mx-auto mt-2 text-base sm:text-base leading-relaxed">
+                            Discover the premium taste of our chocolate cereal matrices, backed by direct-to-consumer scale operations and thousands of happy customers.
+                        </p>
+                    </div>
+
+                    <!-- Product Showcase Grid -->
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-lg mb-xl">
+                        <!-- Product 1 Card -->
+                        <div class="glass-card rounded-[32px] overflow-hidden group border border-outline-variant/20 dark:border-outline/10 flex flex-col hover:shadow-2xl transition-all duration-500">
+                            <div class="h-[380px] overflow-hidden relative">
+                                <img src="chococrispy_product1.jpg" alt="Chococrispy Gourmet Poster" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700">
+                                <div class="absolute inset-0 bg-gradient-to-t from-black/85 via-black/30 to-transparent"></div>
+                                <div class="absolute bottom-6 left-6 right-6">
+                                    <span class="bg-[#d4af37] text-slate-950 px-3 py-1 rounded-full text-base font-bold uppercase tracking-wider font-display">Official Poster</span>
+                                    <h4 class="text-2xl font-bold text-white mt-3 font-display">Chococrispy Signature Tub</h4>
+                                </div>
+                            </div>
+                            <div class="p-8 flex-grow flex flex-col justify-between">
+                                <p class="text-on-surface-variant dark:text-gray-300 text-base leading-relaxed mb-6">
+                                    Infused with high-grade liquid chocolate streams and crunchy, light-weight cereal matrices. Accompanied by crispy wafers and chocolate bars for the ultimate gourmet sensory experience.
+                                </p>
+                                <div class="flex items-center justify-between border-t border-outline-variant/30 dark:border-slate-800 pt-4">
+                                    <span class="text-amber-500 font-bold text-base sm:text-base font-display">Premium Quality</span>
+                                    <span class="text-base text-outline dark:text-gray-400 font-semibold uppercase tracking-wider font-display">EST. 2021</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Product 2 Card -->
+                        <div class="glass-card rounded-[32px] overflow-hidden group border border-outline-variant/20 dark:border-outline/10 flex flex-col hover:shadow-2xl transition-all duration-500">
+                            <div class="h-[380px] overflow-hidden relative">
+                                <img src="chococrispy_product2.jpg" alt="Chococrispy Paddy Field Picnic" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700">
+                                <div class="absolute inset-0 bg-gradient-to-t from-black/85 via-black/30 to-transparent"></div>
+                                <div class="absolute bottom-6 left-6 right-6">
+                                    <span class="bg-primary text-white px-3 py-1 rounded-full text-base font-bold uppercase tracking-wider font-display">Penambat Hati</span>
+                                    <h4 class="text-2xl font-bold text-white mt-3 font-display">Paddy Field Serving Ritual</h4>
+                                </div>
+                            </div>
+                            <div class="p-8 flex-grow flex flex-col justify-between">
+                                <p class="text-on-surface-variant dark:text-gray-300 text-base leading-relaxed mb-6">
+                                    A rustic representation of our gourmet tubs served with specialized flavor dust toppings (Red Velvet crumbs, Cocoa dust, and Honey loops). Handcrafted for sharing.
+                                </p>
+                                <div class="flex items-center justify-between border-t border-outline-variant/30 dark:border-slate-800 pt-4">
+                                    <span class="text-primary dark:text-[#6495ed] font-bold text-base sm:text-base font-display">Local Heritage</span>
+                                    <span class="text-base text-outline dark:text-gray-400 font-semibold uppercase tracking-wider font-display">Direct To Consumer</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Customer Testimonials Wall -->
+                    <div class="mt-16">
+                        <div class="text-center mb-lg">
+                            <h4 class="font-display text-2xl font-bold text-on-surface dark:text-white mb-2">Our Customer Love</h4>
+                            <p class="text-on-surface-variant dark:text-gray-400 text-base">Hear from our community of chocolate enthusiasts.</p>
+                        </div>
+
+                        <!-- Testimonial Grid -->
+                        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-md">
+                            <!-- Card 1 -->
+                            <div class="glass-card p-6 rounded-2xl border border-outline-variant/20 dark:border-outline/10 hover:-translate-y-1 transition-all duration-300">
+                                <div class="flex items-center gap-4 mb-4">
+                                    <div class="w-16 h-16 rounded-full overflow-hidden border-2 border-[#d4af37] shadow-sm flex-shrink-0">
+                                        <img src="chococrispy_1.jpg" alt="Aiman Hakim - Chococrispy Customer Review" loading="lazy" class="w-full h-full object-cover">
+                                    </div>
+                                    <div>
+                                        <h5 class="font-bold text-on-surface dark:text-white text-base font-display">Aiman Hakim</h5>
+                                        <div class="text-amber-500 text-base mt-0.5">★★★★★</div>
+                                    </div>
+                                </div>
+                                <p class="text-on-surface-variant dark:text-gray-300 text-base leading-relaxed italic">
+                                    "Sangat sedap! Coklat dia melimpah ruah dan crunchy habislah! Highly recommended!"
+                                </p>
+                            </div>
+
+                            <!-- Card 2 -->
+                            <div class="glass-card p-6 rounded-2xl border border-outline-variant/20 dark:border-outline/10 hover:-translate-y-1 transition-all duration-300">
+                                <div class="flex items-center gap-4 mb-4">
+                                    <div class="w-16 h-16 rounded-full overflow-hidden border-2 border-[#d4af37] shadow-sm flex-shrink-0">
+                                        <img src="chococrispy_2.jpg" alt="Siti Nurhaliza - Chococrispy Customer Review" loading="lazy" class="w-full h-full object-cover">
+                                    </div>
+                                    <div>
+                                        <h5 class="font-bold text-on-surface dark:text-white text-base font-display">Siti Nurhaliza</h5>
+                                        <div class="text-amber-500 text-base mt-0.5">★★★★★</div>
+                                    </div>
+                                </div>
+                                <p class="text-on-surface-variant dark:text-gray-300 text-base leading-relaxed italic">
+                                    "Chococrispy ni memang penambat hati betul, tak boleh berhenti makan bila dah start!"
+                                </p>
+                            </div>
+
+                            <!-- Card 3 -->
+                            <div class="glass-card p-6 rounded-2xl border border-outline-variant/20 dark:border-outline/10 hover:-translate-y-1 transition-all duration-300">
+                                <div class="flex items-center gap-4 mb-4">
+                                    <div class="w-16 h-16 rounded-full overflow-hidden border-2 border-[#d4af37] shadow-sm flex-shrink-0">
+                                        <img src="chococrispy_3.jpg" alt="Daniel Lee - Chococrispy Customer Review" loading="lazy" class="w-full h-full object-cover">
+                                    </div>
+                                    <div>
+                                        <h5 class="font-bold text-on-surface dark:text-white text-base font-display">Daniel Lee</h5>
+                                        <div class="text-amber-500 text-base mt-0.5">★★★★★</div>
+                                    </div>
+                                </div>
+                                <p class="text-on-surface-variant dark:text-gray-300 text-base leading-relaxed italic">
+                                    "Memang terbaik, kualiti premium gila. Coklat tebal tapi tak muak langsung. Berbaloi sangat!"
+                                </p>
+                            </div>
+
+                            <!-- Card 4 -->
+                            <div class="glass-card p-6 rounded-2xl border border-outline-variant/20 dark:border-outline/10 hover:-translate-y-1 transition-all duration-300">
+                                <div class="flex items-center gap-4 mb-4">
+                                    <div class="w-16 h-16 rounded-full overflow-hidden border-2 border-[#d4af37] shadow-sm flex-shrink-0">
+                                        <img src="chococrispy_4.jpg" alt="Faris Syazwan - Chococrispy Customer Review" loading="lazy" class="w-full h-full object-cover">
+                                    </div>
+                                    <div>
+                                        <h5 class="font-bold text-on-surface dark:text-white text-base font-display">Faris Syazwan</h5>
+                                        <div class="text-amber-500 text-base mt-0.5">★★★★★</div>
+                                    </div>
+                                </div>
+                                <p class="text-on-surface-variant dark:text-gray-300 text-base leading-relaxed italic">
+                                    "Makan berkali-kali pun tak muak, rasa coklat dia pure sangat. Memang wajib try korang!"
+                                </p>
+                            </div>
+
+                            <!-- Card 5 -->
+                            <div class="glass-card p-6 rounded-2xl border border-outline-variant/20 dark:border-outline/10 hover:-translate-y-1 transition-all duration-300">
+                                <div class="flex items-center gap-4 mb-4">
+                                    <div class="w-16 h-16 rounded-full overflow-hidden border-2 border-[#d4af37] shadow-sm flex-shrink-0">
+                                        <img src="chococrispy_5.jpg" alt="Farhana Rose - Chococrispy Customer Review" loading="lazy" class="w-full h-full object-cover">
+                                    </div>
+                                    <div>
+                                        <h5 class="font-bold text-on-surface dark:text-white text-base font-display">Farhana Rose</h5>
+                                        <div class="text-amber-500 text-base mt-0.5">★★★★★</div>
+                                    </div>
+                                </div>
+                                <p class="text-on-surface-variant dark:text-gray-300 text-base leading-relaxed italic">
+                                    "Rasa coklat yang mewah. Kepingan bijirin rangup walaupun dah letak susu. Terbaiklah!"
+                                </p>
+                            </div>
+
+                            <!-- Card 6 -->
+                            <div class="glass-card p-6 rounded-2xl border border-outline-variant/20 dark:border-outline/10 hover:-translate-y-1 transition-all duration-300">
+                                <div class="flex items-center gap-4 mb-4">
+                                    <div class="w-16 h-16 rounded-full overflow-hidden border-2 border-[#d4af37] shadow-sm flex-shrink-0">
+                                        <img src="chococrispy_6.jpg" alt="Ainaa Sofea - Chococrispy Customer Review" loading="lazy" class="w-full h-full object-cover">
+                                    </div>
+                                    <div>
+                                        <h5 class="font-bold text-on-surface dark:text-white text-base font-display">Ainaa Sofea</h5>
+                                        <div class="text-amber-500 text-base mt-0.5">★★★★★</div>
+                                    </div>
+                                </div>
+                                <p class="text-on-surface-variant dark:text-gray-300 text-base leading-relaxed italic">
+                                    "Sedap sangat! Coklat tak kedekut. Dah repeat order berkali-kali dah dengan seller ni."
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Page 5: Skills Matrix & Dashboard -->
+    <section class="py-xl bg-surface-container-low dark:bg-slate-900/30" id="skills">
+        <div class="w-full px-6 md:px-12 xl:px-16">
+            <!-- Section Header -->
+            <div class="mb-xl max-w-2xl reveal-element">
+                <span class="text-primary dark:text-[#6495ed] font-label-md uppercase tracking-[0.2em] mb-sm block font-bold font-display">Competencies</span>
+                <h2 class="font-display text-3xl sm:text-4xl font-bold text-on-surface dark:text-white mb-md">Skills Dashboard</h2>
+                <p class="font-body-lg text-body-lg text-on-surface-variant dark:text-gray-300 leading-relaxed">
+                    Interactive mapping of technical execution capacities and soft skills acquired across enterprise work and business execution.
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-lg items-start">
+                <!-- Left: Circular Technical Dashboard -->
+                <div class="lg:col-span-7 space-y-md reveal-element">
+                    <div class="flex items-center gap-xs mb-sm text-on-surface dark:text-white">
+                        <span class="material-symbols-outlined text-primary dark:text-[#6495ed]" style="font-variation-settings: 'FILL' 1;">terminal</span>
+                        <h3 class="font-headline-md text-[20px] font-bold">Technical Matrix</h3>
+                    </div>
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-md">
+                        <!-- Skill 1 -->
+                        <div class="glass-card p-md rounded-xl hover:translate-y-[-4px] transition-all duration-300 skill-card" data-offset="42">
+                            <div class="flex justify-between items-start mb-md">
+                                <div>
+                                    <h4 class="font-label-md font-bold text-on-surface dark:text-white text-sm sm:text-base">Marketing & SMM</h4>
+                                    <p class="text-label-sm text-on-surface-variant dark:text-gray-400 text-sm">Growth & Analytics</p>
+                                </div>
+                                <div class="relative w-16 h-16">
+                                    <svg class="w-full h-full transform -rotate-90" viewBox="0 0 100 100">
+                                        <circle class="text-surface-container-highest dark:text-slate-800 stroke-current" cx="50" cy="50" fill="transparent" r="45" stroke-width="8"></circle>
+                                        <circle class="text-primary dark:text-[#6495ed] stroke-current circular-progress-bar" cx="50" cy="50" fill="transparent" r="45" stroke-linecap="round" stroke-width="8" style="--dash-offset: 42;"></circle>
+                                    </svg>
+                                    <span class="absolute inset-0 flex items-center justify-center text-base font-bold dark:text-white">85%</span>
+                                </div>
+                            </div>
+                            <div class="flex flex-wrap gap-xs">
+                                <span class="px-xs py-1 bg-primary/10 text-primary dark:text-[#6495ed] text-base rounded-full font-bold uppercase">Meta Ads</span>
+                                <span class="px-xs py-1 bg-primary/10 text-primary dark:text-[#6495ed] text-base rounded-full font-bold uppercase">Analytics</span>
+                            </div>
+                        </div>
+
+                        <!-- Skill 2 -->
+                        <div class="glass-card p-md rounded-xl hover:translate-y-[-4px] transition-all duration-300 skill-card" data-offset="28">
+                            <div class="flex justify-between items-start mb-md">
+                                <div>
+                                    <h4 class="font-label-md font-bold text-on-surface dark:text-white text-sm sm:text-base">Content Strategy</h4>
+                                    <p class="text-label-sm text-on-surface-variant dark:text-gray-400 text-sm">Production & Media</p>
+                                </div>
+                                <div class="relative w-16 h-16">
+                                    <svg class="w-full h-full transform -rotate-90" viewBox="0 0 100 100">
+                                        <circle class="text-surface-container-highest dark:text-slate-800 stroke-current" cx="50" cy="50" fill="transparent" r="45" stroke-width="8"></circle>
+                                        <circle class="text-primary dark:text-[#6495ed] stroke-current circular-progress-bar" cx="50" cy="50" fill="transparent" r="45" stroke-linecap="round" stroke-width="8" style="--dash-offset: 28;"></circle>
+                                    </svg>
+                                    <span class="absolute inset-0 flex items-center justify-center text-base font-bold dark:text-white">90%</span>
+                                </div>
+                            </div>
+                            <div class="flex flex-wrap gap-xs">
+                                <span class="px-xs py-1 bg-primary/10 text-primary dark:text-[#6495ed] text-base rounded-full font-bold uppercase">Storytelling</span>
+                                <span class="px-xs py-1 bg-primary/10 text-primary dark:text-[#6495ed] text-base rounded-full font-bold uppercase">Live Commerce</span>
+                            </div>
+                        </div>
+
+                        <!-- Skill 3 -->
+                        <div class="glass-card p-md rounded-xl hover:translate-y-[-4px] transition-all duration-300 skill-card" data-offset="56">
+                            <div class="flex justify-between items-start mb-md">
+                                <div>
+                                    <h4 class="font-label-md font-bold text-on-surface dark:text-white text-sm sm:text-base">Copywriting</h4>
+                                    <p class="text-label-sm text-on-surface-variant dark:text-gray-400 text-sm">Persuasive Messaging</p>
+                                </div>
+                                <div class="relative w-16 h-16">
+                                    <svg class="w-full h-full transform -rotate-90" viewBox="0 0 100 100">
+                                        <circle class="text-surface-container-highest dark:text-slate-800 stroke-current" cx="50" cy="50" fill="transparent" r="45" stroke-width="8"></circle>
+                                        <circle class="text-primary dark:text-[#6495ed] stroke-current circular-progress-bar" cx="50" cy="50" fill="transparent" r="45" stroke-linecap="round" stroke-width="8" style="--dash-offset: 56;"></circle>
+                                    </svg>
+                                    <span class="absolute inset-0 flex items-center justify-center text-base font-bold dark:text-white">80%</span>
+                                </div>
+                            </div>
+                            <div class="flex flex-wrap gap-xs">
+                                <span class="px-xs py-1 bg-primary/10 text-primary dark:text-[#6495ed] text-base rounded-full font-bold uppercase">SEO Focus</span>
+                                <span class="px-xs py-1 bg-primary/10 text-primary dark:text-[#6495ed] text-base rounded-full font-bold uppercase">Sales Copy</span>
+                            </div>
+                        </div>
+
+                        <!-- Skill 4 -->
+                        <div class="glass-card p-md rounded-xl hover:translate-y-[-4px] transition-all duration-300 skill-card" data-offset="14">
+                            <div class="flex justify-between items-start mb-md">
+                                <div>
+                                    <h4 class="font-label-md font-bold text-on-surface dark:text-white text-sm sm:text-base">IT & Programming</h4>
+                                    <p class="text-label-sm text-on-surface-variant dark:text-gray-400 text-sm">Systems & Logic</p>
+                                </div>
+                                <div class="relative w-16 h-16">
+                                    <svg class="w-full h-full transform -rotate-90" viewBox="0 0 100 100">
+                                        <circle class="text-surface-container-highest dark:text-slate-800 stroke-current" cx="50" cy="50" fill="transparent" r="45" stroke-width="8"></circle>
+                                        <circle class="text-primary dark:text-[#6495ed] stroke-current circular-progress-bar" cx="50" cy="50" fill="transparent" r="45" stroke-linecap="round" stroke-width="8" style="--dash-offset: 42;"></circle>
+                                    </svg>
+                                    <span class="absolute inset-0 flex items-center justify-center text-base font-bold dark:text-white">85%</span>
+                                </div>
+                            </div>
+                            <div class="flex flex-wrap gap-xs">
+                                <span class="px-xs py-1 bg-primary/10 text-primary dark:text-[#6495ed] text-base rounded-full font-bold uppercase">HTML/JS</span>
+                                <span class="px-xs py-1 bg-primary/10 text-primary dark:text-[#6495ed] text-base rounded-full font-bold uppercase">SQL</span>
+                                <span class="px-xs py-1 bg-primary/10 text-primary dark:text-[#6495ed] text-base rounded-full font-bold uppercase">Networks</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right: Soft Competencies -->
+                <div class="lg:col-span-5 space-y-md reveal-element">
+                    <div class="flex items-center gap-xs mb-sm text-on-surface dark:text-white">
+                        <span class="material-symbols-outlined text-tertiary dark:text-[#4ae176]" style="font-variation-settings: 'FILL' 1;">psychology</span>
+                        <h3 class="font-headline-md text-[20px] font-bold">Soft Competencies</h3>
+                    </div>
+                    <div class="glass-card p-lg rounded-2xl space-y-lg">
+                        <div>
+                            <div class="flex justify-between mb-xs">
+                                <span class="font-label-md font-bold text-sm">Leadership & Management</span>
+                                <span class="text-tertiary dark:text-[#4ae176] font-bold text-base">Expert</span>
+                            </div>
+                            <div class="w-full bg-surface-container-highest dark:bg-slate-800 h-2 rounded-full overflow-hidden">
+                                <div class="bg-tertiary dark:bg-[#4ae176] h-full rounded-full w-[92%]"></div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="flex justify-between mb-xs">
+                                <span class="font-label-md font-bold text-sm">Critical Thinking</span>
+                                <span class="text-tertiary dark:text-[#4ae176] font-bold text-base">Advanced</span>
+                            </div>
+                            <div class="w-full bg-surface-container-highest dark:bg-slate-800 h-2 rounded-full overflow-hidden">
+                                <div class="bg-tertiary dark:bg-[#4ae176] h-full rounded-full w-[88%]"></div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="flex justify-between mb-xs">
+                                <span class="font-label-md font-bold text-sm">Problem Solving</span>
+                                <span class="text-tertiary dark:text-[#4ae176] font-bold text-base">Specialist</span>
+                            </div>
+                            <div class="w-full bg-surface-container-highest dark:bg-slate-800 h-2 rounded-full overflow-hidden">
+                                <div class="bg-tertiary dark:bg-[#4ae176] h-full rounded-full w-[95%]"></div>
+                            </div>
+                        </div>
+                        <div class="pt-md border-t border-outline-variant/30 dark:border-slate-800 grid grid-cols-2 gap-sm">
+                            <div class="p-sm rounded-xl bg-surface-container-low dark:bg-slate-800/40 text-center">
+                                <p class="text-3xl sm:text-display font-bold text-primary dark:text-[#6495ed] mb-0 leading-none">5+</p>
+                                <p class="text-label-sm text-on-surface-variant dark:text-gray-400 text-sm">Years Exp.</p>
+                            </div>
+                            <div class="p-sm rounded-xl bg-surface-container-low dark:bg-slate-800/40 text-center">
+                                <p class="text-3xl sm:text-display font-bold text-tertiary dark:text-[#4ae176] mb-0 leading-none">12</p>
+                                <p class="text-label-sm text-on-surface-variant dark:text-gray-400 text-sm">Team Size</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Page 4: Education Timeline -->
+            <div class="py-xl border-t border-outline-variant/30 dark:border-outline/10 mt-xl">
+                <div class="text-center mb-xl reveal-element">
+                    <span class="inline-block px-md py-1 bg-amber-500/10 text-amber-500 font-label-sm rounded-full mb-sm uppercase tracking-widest text-sm font-bold">Academic Journey</span>
+                    <h3 class="font-display text-3xl sm:text-4xl font-bold text-on-surface dark:text-white">Education & Evolution</h3>
+                </div>
+                
+                <div class="relative max-w-4xl mx-auto py-lg reveal-element pl-6 md:pl-12">
+                    <!-- Left-aligned Timeline Line -->
+                    <div class="absolute left-2 md:left-6 top-0 bottom-0 w-0.5 bg-amber-500/30"></div>
+                    
+                    <div class="space-y-xl">
+                        <!-- Education 1: Bachelor of IT -->
+                        <div class="relative flex flex-col md:flex-row gap-4 items-start w-full pl-6 md:pl-10">
+                            <!-- Bullet -->
+                            <div class="absolute left-[-2px] md:left-[14px] top-2 z-10 bg-amber-500 text-white w-6 h-6 rounded-full flex items-center justify-center shadow-lg border-2 border-white dark:border-slate-900">
+                                <span class="material-symbols-outlined text-[12px] font-bold">school</span>
+                            </div>
+                            <div class="glass-card p-lg rounded-3xl w-full border border-outline-variant/20 dark:border-outline/10 hover:shadow-xl transition-all duration-300">
+                                <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2 mb-md">
+                                    <div>
+                                        <h4 class="font-display text-xl sm:text-2xl font-bold text-amber-500">Bachelor of IT (Hons.)</h4>
+                                        <p class="font-label-md text-on-surface-variant dark:text-gray-400 font-semibold text-base">UiTM Shah Alam</p>
+                                    </div>
+                                    <span class="inline-block px-md py-xs bg-amber-500/10 text-amber-500 rounded-full text-sm font-bold self-start sm:self-center">Current</span>
+                                </div>
+                                <p class="text-on-surface-variant dark:text-gray-300 text-base leading-relaxed">
+                                    Specializing in Information Technology, focusing on modern web networks, cloud computing, and enterprise database layouts.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Education 2: STPM -->
+                        <div class="relative flex flex-col md:flex-row gap-4 items-start w-full pl-6 md:pl-10">
+                            <!-- Bullet -->
+                            <div class="absolute left-[-2px] md:left-[14px] top-2 z-10 bg-amber-500 text-white w-6 h-6 rounded-full flex items-center justify-center shadow-lg border-2 border-white dark:border-slate-900">
+                                <span class="material-symbols-outlined text-[12px] font-bold">description</span>
+                            </div>
+                            <div class="glass-card p-lg rounded-3xl w-full border border-outline-variant/20 dark:border-outline/10 hover:shadow-xl transition-all duration-300">
+                                <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2 mb-md">
+                                    <div>
+                                        <h4 class="font-display text-xl sm:text-2xl font-bold text-on-surface dark:text-white">STPM</h4>
+                                        <p class="font-label-md text-on-surface-variant dark:text-gray-400 font-semibold text-base">Kolej Tingkatan Enam Tunku Abdul Rahman Putra Sabak Bernam</p>
+                                    </div>
+                                    <span class="inline-block px-md py-xs bg-surface-container dark:bg-slate-800 text-on-surface-variant dark:text-gray-400 rounded-full text-sm font-bold self-start sm:self-center">2018 - 2020</span>
+                                </div>
+                                <p class="text-on-surface-variant dark:text-gray-300 text-base leading-relaxed">
+                                    Completed pre-university science and technology modules, setting up robust critical reasoning and computational foundations.
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Education 3: SPM -->
+                        <div class="relative flex flex-col md:flex-row gap-4 items-start w-full pl-6 md:pl-10">
+                            <!-- Bullet -->
+                            <div class="absolute left-[-2px] md:left-[14px] top-2 z-10 bg-amber-500 text-white w-6 h-6 rounded-full flex items-center justify-center shadow-lg border-2 border-white dark:border-slate-900">
+                                <span class="material-symbols-outlined text-[12px] font-bold">history_edu</span>
+                            </div>
+                            <div class="glass-card p-lg rounded-3xl w-full border border-outline-variant/20 dark:border-outline/10 hover:shadow-xl transition-all duration-300">
+                                <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2 mb-md">
+                                    <div>
+                                        <h4 class="font-display text-xl sm:text-2xl font-bold text-on-surface dark:text-white">SPM</h4>
+                                        <p class="font-label-md text-on-surface-variant dark:text-gray-400 font-semibold text-base">SMK Bagan Terap, Sabak Bernam</p>
+                                    </div>
+                                    <span class="inline-block px-md py-xs bg-surface-container dark:bg-slate-800 text-on-surface-variant dark:text-gray-400 rounded-full text-sm font-bold self-start sm:self-center">2013 - 2017</span>
+                                </div>
+                                <p class="text-on-surface-variant dark:text-gray-300 text-base leading-relaxed">
+                                    Completed secondary school foundation studies, laying the groundwork for mathematical and logical pathways.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Goals & Certs -->
+                <div class="mt-xl grid grid-cols-1 md:grid-cols-2 gap-lg pt-lg border-t border-outline-variant/30 dark:border-outline/10 reveal-element">
+                    <div class="glass-card p-lg rounded-2xl border-l-4 border-l-primary">
+                        <div class="flex items-center gap-sm mb-md text-on-surface dark:text-white">
+                            <span class="material-symbols-outlined text-primary dark:text-[#6495ed]">emoji_events</span>
+                            <h4 class="font-headline-md text-[18px] font-bold">Academic Goals</h4>
+                        </div>
+                        <ul class="space-y-sm text-base text-on-surface-variant dark:text-gray-300">
+                            <li class="flex items-center gap-xs"><span class="material-symbols-outlined text-primary dark:text-[#6495ed] text-base">check_circle</span> First Class Honours in Bachelor of IT</li>
+                            <li class="flex items-center gap-xs"><span class="material-symbols-outlined text-primary dark:text-[#6495ed] text-base">check_circle</span> Dean's List Recognition (Consecutive semesters)</li>
+                            <li class="flex items-center gap-xs"><span class="material-symbols-outlined text-primary dark:text-[#6495ed] text-base">check_circle</span> Capstone Focus: Enterprise AI Systems integration</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="glass-card p-lg rounded-2xl border-l-4 border-l-tertiary">
+                        <div class="flex items-center gap-sm mb-md text-on-surface dark:text-white">
+                            <span class="material-symbols-outlined text-tertiary dark:text-[#4ae176]">verified</span>
+                            <h4 class="font-headline-md text-[18px] font-bold">Target Certifications</h4>
+                        </div>
+                        <ul class="space-y-sm text-base text-on-surface-variant dark:text-gray-300">
+                            <li class="flex items-center gap-xs"><span class="material-symbols-outlined text-tertiary dark:text-[#4ae176] text-base">arrow_forward</span> AWS Certified Solutions Architect</li>
+                            <li class="flex items-center gap-xs"><span class="material-symbols-outlined text-tertiary dark:text-[#4ae176] text-base">arrow_forward</span> Google Cloud Digital Leader</li>
+                            <li class="flex items-center gap-xs"><span class="material-symbols-outlined text-tertiary dark:text-[#4ae176] text-base">arrow_forward</span> HubSpot Content Marketing Professional</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Page 5: Resume & Contact Details -->
+    <section class="py-xl bg-surface-container-low dark:bg-slate-900/20" id="contact">
+        <div class="w-full px-6 md:px-12 xl:px-16">
+            <header class="mb-16 reveal-element flex flex-col md:flex-row md:items-end justify-between gap-6">
+                <div>
+                    <div class="flex items-center gap-3 mb-4">
+                        <span class="relative flex h-3 w-3">
+                            <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-[#22C55E] opacity-75"></span>
+                            <span class="relative inline-flex rounded-full h-3 w-3 bg-[#22C55E]"></span>
+                        </span>
+                        <span class="text-base font-bold tracking-wider text-[#22C55E] uppercase">Available for new projects</span>
+                    </div>
+                    <h2 class="font-display text-4xl md:text-[56px] leading-tight font-bold -tracking-[0.02em] text-on-surface dark:text-white">
+                        Resume & Contact
+                    </h2>
+                </div>
+                <button id="download-resume-btn-2" class="flex items-center gap-2 bg-primary hover:bg-[#003ea8] text-white px-8 py-4 rounded-xl font-semibold hover:scale-[1.02] active:scale-[0.98] transition-all duration-200 shadow-xl group">
+                    <span class="material-symbols-outlined">download</span>
+                    Download Resume PDF
+                </button>
+            </header>
+
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
+                <!-- Left: Resume Summary (UiTM & Grid System data aligned) -->
+                <section class="lg:col-span-7 space-y-8 reveal-element">
+                    <div class="glass-card rounded-[24px] p-8 md:p-12 shadow-sm relative overflow-hidden group">
+                        <div class="absolute -top-24 -right-24 w-64 h-64 bg-primary/5 rounded-full blur-3xl group-hover:scale-110 transition-transform duration-1000"></div>
+                        <div class="relative z-10">
+                            
+                            <!-- Experience preview -->
+                            <div class="flex items-center justify-between mb-8">
+                                <h3 class="text-[22px] font-bold font-display dark:text-white">Professional Experience</h3>
+                                <span class="material-symbols-outlined text-outline">work_history</span>
+                            </div>
+                            <div class="space-y-8">
+                                <div class="relative pl-8 border-l-2 border-primary/20">
+                                    <div class="absolute -left-[9px] top-0 w-4 h-4 bg-primary rounded-full border-4 border-white dark:border-slate-900"></div>
+                                    <span class="text-base font-bold text-primary dark:text-[#6495ed] mb-1 block">2023 — PRESENT</span>
+                                    <h4 class="text-[18px] font-bold text-on-surface dark:text-white mb-1">Warehouse Assistant</h4>
+                                    <p class="text-on-surface-variant dark:text-gray-400 font-medium text-base mb-2">Grid System Marketing</p>
+                                    <p class="text-outline dark:text-gray-300 text-base leading-relaxed max-w-lg">Managing inventory logic, tracking product logistics pipelines, and optimizing seasonal distributions.</p>
+                                </div>
+                                <div class="relative pl-8 border-l-2 border-primary/20">
+                                    <div class="absolute -left-[9px] top-0 w-4 h-4 bg-outline-variant rounded-full border-4 border-white dark:border-slate-900"></div>
+                                    <span class="text-base font-bold text-outline dark:text-gray-400 mb-1 block">2022 — 2023</span>
+                                    <h4 class="text-[18px] font-bold text-on-surface dark:text-white mb-1">Live Host & Content Creator</h4>
+                                    <p class="text-on-surface-variant dark:text-gray-400 font-medium text-base mb-2">Grid System Marketing</p>
+                                    <p class="text-outline dark:text-gray-300 text-base leading-relaxed max-w-lg">Spearheaded dynamic streaming schedules, increasing direct brand interactions and digital sales metrics.</p>
+                                    
+                                    <!-- Live Host Photos Gallery -->
+                                    <div class="grid grid-cols-3 gap-3 mt-4 max-w-lg">
+                                        <div class="relative aspect-square rounded-2xl overflow-hidden shadow-sm group/img cursor-pointer border border-outline-variant/20 dark:border-outline/10">
+                                            <img src="livehost_1.jpg" alt="Live Host phone stream" class="w-full h-full object-cover group-hover/img:scale-110 transition-transform duration-500">
+                                        </div>
+                                        <div class="relative aspect-square rounded-2xl overflow-hidden shadow-sm group/img cursor-pointer border border-outline-variant/20 dark:border-outline/10">
+                                            <img src="livehost_2.jpg" alt="Live Host studio equipment" class="w-full h-full object-cover group-hover/img:scale-110 transition-transform duration-500">
+                                        </div>
+                                        <div class="relative aspect-square rounded-2xl overflow-hidden shadow-sm group/img cursor-pointer border border-outline-variant/20 dark:border-outline/10">
+                                            <img src="livehost_3.jpg" alt="Live Host selfie" class="w-full h-full object-cover group-hover/img:scale-110 transition-transform duration-500">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Education Preview -->
+                            <div class="mt-12 pt-8 border-t border-outline-variant/30 dark:border-slate-800">
+                                <h3 class="text-[22px] font-bold font-display dark:text-white mb-6">Education</h3>
+                                <div class="flex items-start gap-4">
+                                    <div class="w-12 h-12 rounded-xl bg-surface-container dark:bg-slate-800 flex items-center justify-center flex-shrink-0 text-primary dark:text-[#6495ed]">
+                                        <span class="material-symbols-outlined">school</span>
+                                    </div>
+                                    <div>
+                                        <h4 class="text-[18px] font-bold text-on-surface dark:text-white">Bachelor of Information Technology (Hons.)</h4>
+                                        <p class="text-on-surface-variant dark:text-gray-400 font-medium text-base">UiTM Shah Alam, Malaysia</p>
+                                        <p class="text-base text-outline dark:text-gray-400 mt-1">Ongoing Studies • Dean's List Track</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Right: Contact Card & Form -->
+                <aside class="lg:col-span-5 space-y-8 reveal-element">
+                    <!-- Contact Info Card -->
+                    <div class="bg-slate-950 text-white rounded-[24px] p-8 shadow-2xl relative overflow-hidden border border-slate-800">
+                        <div class="absolute top-0 right-0 p-4">
+                            <span class="material-symbols-outlined opacity-10 text-[64px]">contact_page</span>
+                        </div>
+                        <h3 class="text-[22px] font-bold mb-6 relative z-10 font-display">Contact Details</h3>
+                        
+                        <div class="space-y-6 relative z-10 text-base">
+                            <a class="flex items-center gap-4 group" href="mailto:nazacitra252@gmail.com">
+                                <div class="w-10 h-10 rounded-lg bg-white/10 flex items-center justify-center group-hover:bg-primary transition-colors text-white">
+                                    <span class="material-symbols-outlined text-[20px]">mail</span>
+                                </div>
+                                <span class="font-medium group-hover:text-primary dark:group-hover:text-[#6495ed] transition-colors">nazacitra252@gmail.com</span>
+                            </a>
+                            <a class="flex items-center gap-4 group" href="tel:+60105269562">
+                                <div class="w-10 h-10 rounded-lg bg-white/10 flex items-center justify-center group-hover:bg-primary transition-colors text-white">
+                                    <span class="material-symbols-outlined text-[20px]">call</span>
+                                </div>
+                                <span class="font-medium group-hover:text-primary dark:group-hover:text-[#6495ed] transition-colors">+60 10 526 9562</span>
+                            </a>
+                            <a class="flex items-center gap-4 group" href="https://wa.me/60105269562" target="_blank" rel="noopener noreferrer">
+                                <div class="w-10 h-10 rounded-lg bg-white/10 flex items-center justify-center group-hover:bg-[#25D366] transition-colors text-white">
+                                    <span class="material-symbols-outlined text-[20px]">chat</span>
+                                </div>
+                                <span class="font-medium group-hover:text-[#25D366] transition-colors">WhatsApp (+60 10 526 9562)</span>
+                            </a>
+                            <div class="flex items-center gap-4">
+                                <div class="w-10 h-10 rounded-lg bg-white/10 flex items-center justify-center text-white">
+                                    <span class="material-symbols-outlined text-[20px]">location_on</span>
+                                </div>
+                                <span class="font-medium">Shah Alam, Selangor, Malaysia</span>
+                            </div>
+                        </div>
+
+                        <div class="mt-8 flex gap-4 pt-6 border-t border-white/10">
+                            <!-- Instagram -->
+                            <a class="w-10 h-10 rounded-full border border-white/20 flex items-center justify-center hover:bg-gradient-to-tr hover:from-[#f9ce34] hover:via-[#ee2a7b] hover:to-[#6228d7] hover:border-transparent transition-all text-white shadow-md hover:scale-110 duration-200" 
+                               href="https://www.instagram.com/pej.zz?igsh=ZmQwYTFtbjFxOW8%3D&utm_source=qr" 
+                               target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="w-5 h-5 fill-current"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.051.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 1 0 0 12.324 6.162 6.162 0 0 0 0-12.324zM12 16a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm6.406-11.845a1.44 1.44 0 1 0 0 2.881 1.44 1.44 0 0 0 0-2.881z"/></svg>
+                            </a>
+                            <!-- Facebook -->
+                            <a class="w-10 h-10 rounded-full border border-white/20 flex items-center justify-center hover:bg-[#1877F2] hover:border-transparent transition-all text-white shadow-md hover:scale-110 duration-200" 
+                               href="https://www.facebook.com/share/18uVFwEaTb/?mibextid=wwXIfr" 
+                               target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="w-5 h-5 fill-current"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Contact Form -->
+                    <div class="glass-card rounded-[24px] p-8 shadow-sm">
+                        <h3 class="text-[22px] font-bold mb-6 font-display dark:text-white">Send Message</h3>
+                        <form class="space-y-5" id="contactForm">
+                            <div class="space-y-1">
+                                <label for="contact-name" class="text-base font-bold text-on-surface-variant dark:text-gray-300 px-1 uppercase tracking-wider">Full Name</label>
+                                <input id="contact-name" name="name" required class="w-full px-5 py-3.5 rounded-xl bg-surface-container-low dark:bg-slate-800/40 border-transparent dark:text-white focus:bg-white dark:focus:bg-slate-900 focus:border-primary focus:ring-4 focus:ring-primary/10 transition-all outline-none" placeholder="John Doe" type="text">
+                            </div>
+                            <div class="space-y-1">
+                                <label for="contact-email" class="text-base font-bold text-on-surface-variant dark:text-gray-300 px-1 uppercase tracking-wider">Email Address</label>
+                                <input id="contact-email" name="email" required class="w-full px-5 py-3.5 rounded-xl bg-surface-container-low dark:bg-slate-800/40 border-transparent dark:text-white focus:bg-white dark:focus:bg-slate-900 focus:border-primary focus:ring-4 focus:ring-primary/10 transition-all outline-none" placeholder="john@example.com" type="email">
+                            </div>
+                            <div class="space-y-1">
+                                <label for="contact-message" class="text-base font-bold text-on-surface-variant dark:text-gray-300 px-1 uppercase tracking-wider">Message</label>
+                                <textarea id="contact-message" name="message" required class="w-full px-5 py-3.5 rounded-xl bg-surface-container-low dark:bg-slate-800/40 border-transparent dark:text-white focus:bg-white dark:focus:bg-slate-900 focus:border-primary focus:ring-4 focus:ring-primary/10 transition-all outline-none resize-none" placeholder="How can I help you?" rows="4"></textarea>
+                            </div>
+                            <button class="w-full bg-primary hover:bg-[#003ea8] text-white py-4 rounded-xl font-bold hover:scale-[1.01] active:scale-[0.99] transition-all shadow-lg flex items-center justify-center gap-2 group" type="submit" aria-label="Submit contact message form to Muhammad Faizal">
+                                Send Message
+                                <span class="material-symbols-outlined group-hover:translate-x-1 transition-transform text-base">send</span>
+                            </button>
+                        </form>
+                    </div>
+                </aside>
+            </div>
+
+            <!-- Map Section -->
+            <section class="mt-20 reveal-element">
+                <div class="relative w-full h-[350px] sm:h-[450px] rounded-[32px] overflow-hidden shadow-lg border border-outline-variant/30 dark:border-outline/10">
+                    <!-- Google Maps Interactive Embed -->
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3984.0927771720815!2d101.49887711475713!3d3.0697279977645166!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31cc52e1f40d5885%3A0xe54d8fb8db2fa348!2sUniversiti%20Teknologi%20MARA%20(UiTM)%20Shah%20Alam!5e0!3m2!1sen!2smy!4v1700000000000!5m2!1sen!2smy" 
+                            width="100%" 
+                            height="100%" 
+                            style="border:0;" 
+                            allowfullscreen="" 
+                            loading="lazy" 
+                            referrerpolicy="no-referrer-when-downgrade" 
+                            class="absolute inset-0 w-full h-full transition-all duration-500 filter grayscale-[10%] contrast-[95%] dark:invert-[90%] dark:hue-rotate-[180deg] dark:brightness-[85%] dark:contrast-[110%]"></iframe>
+                    
+                    <!-- Floating Location Tag -->
+                    <div class="absolute bottom-6 left-6 z-20 bg-white/95 dark:bg-slate-900/95 backdrop-blur-md px-6 py-4 shadow-2xl rounded-2xl border border-outline-variant/30 dark:border-outline/10 flex items-center gap-3 pointer-events-none">
+                        <div class="w-10 h-10 bg-primary rounded-xl flex items-center justify-center shadow-md">
+                            <span class="material-symbols-outlined text-white text-[22px]" style="font-variation-settings: 'FILL' 1;">location_on</span>
+                        </div>
+                        <div>
+                            <p class="font-bold text-on-surface dark:text-white text-base">Based in UiTM Shah Alam</p>
+                            <p class="text-sm text-on-surface-variant dark:text-gray-400">Selangor, Malaysia</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="w-full py-16 bg-surface-container-low dark:bg-slate-950 border-t border-outline-variant/30 dark:border-outline/10 transition-colors duration-300">
+        <div class="w-full px-6 md:px-12 xl:px-16 grid grid-cols-1 md:grid-cols-2 gap-md items-center">
+            <div class="space-y-sm text-center md:text-left flex flex-col items-center md:items-start">
+                <div class="flex items-center gap-3">
+                    <img class="h-8 w-auto rounded-md object-contain" src="logo.png" alt="Logo" onerror="this.style.display='none'">
+                    <span class="font-display text-2xl font-bold text-on-surface dark:text-white">Faizal</span>
+                </div>
+                <p class="text-on-surface-variant dark:text-gray-400 font-body-md text-base">
+                    © 2026 Muhammad Faizal. Built with precision and a passion for engineering excellence.
+                </p>
+            </div>
+            <div class="flex flex-wrap justify-center md:justify-end gap-md pt-4 md:pt-0 items-center">
+                <!-- Instagram Capsule -->
+                <a class="flex items-center gap-3 px-5 py-2.5 rounded-full border border-outline-variant/30 dark:border-outline/10 bg-surface-container-low dark:bg-slate-900/60 hover:bg-gradient-to-tr hover:from-[#f9ce34] hover:via-[#ee2a7b] hover:to-[#6228d7] hover:border-transparent transition-all group shadow-sm hover:scale-105 duration-200" 
+                   href="https://www.instagram.com/pej.zz?igsh=ZmQwYTFtbjFxOW8%3D&utm_source=qr" target="_blank" rel="noopener noreferrer">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="w-6 h-6 fill-current text-on-surface dark:text-white group-hover:text-white transition-colors"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.051.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 1 0 0 12.324 6.162 6.162 0 0 0 0-12.324zM12 16a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm6.406-11.845a1.44 1.44 0 1 0 0 2.881 1.44 1.44 0 0 0 0-2.881z"/></svg>
+                    <div class="flex flex-col items-start leading-none text-left">
+                        <span class="text-base uppercase tracking-wider text-on-surface-variant dark:text-gray-400 group-hover:text-white transition-colors">Instagram</span>
+                        <span class="text-base font-semibold italic text-on-surface dark:text-white group-hover:text-white transition-colors mt-0.5">@pejalcoco</span>
+                    </div>
+                </a>
+                <!-- Facebook Capsule -->
+                <a class="flex items-center gap-3 px-5 py-2.5 rounded-full border border-outline-variant/30 dark:border-outline/10 bg-surface-container-low dark:bg-slate-900/60 hover:bg-[#1877F2] hover:border-transparent transition-all group shadow-sm hover:scale-105 duration-200" 
+                   href="https://www.facebook.com/share/18uVFwEaTb/?mibextid=wwXIfr" target="_blank" rel="noopener noreferrer">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="w-6 h-6 fill-current text-on-surface dark:text-white group-hover:text-white transition-colors"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+                    <div class="flex flex-col items-start leading-none text-left">
+                        <span class="text-base uppercase tracking-wider text-on-surface-variant dark:text-gray-400 group-hover:text-white transition-colors">Facebook</span>
+                        <span class="text-base font-semibold italic text-on-surface dark:text-white group-hover:text-white transition-colors mt-0.5">@pejalcoco</span>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Core Page Scripts -->
+    <script>
+        // ------------------ DARK MODE TOGGLE ------------------
+        const themeToggle = document.getElementById('theme-toggle');
+        const themeToggleIcon = document.getElementById('theme-toggle-icon');
+        const html = document.documentElement;
+
+        // Check local storage or system preference
+        const savedTheme = localStorage.getItem('theme');
+        const systemPrefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+        
+        if (savedTheme === 'dark' || (!savedTheme && systemPrefersDark)) {
+            html.classList.add('dark');
+            html.classList.remove('light');
+            themeToggleIcon.textContent = 'light_mode';
+        } else {
+            html.classList.add('light');
+            html.classList.remove('dark');
+            themeToggleIcon.textContent = 'dark_mode';
+        }
+
+        themeToggle.addEventListener('click', () => {
+            if (html.classList.contains('dark')) {
+                html.classList.remove('dark');
+                html.classList.add('light');
+                themeToggleIcon.textContent = 'dark_mode';
+                localStorage.setItem('theme', 'light');
+            } else {
+                html.classList.remove('light');
+                html.classList.add('dark');
+                themeToggleIcon.textContent = 'light_mode';
+                localStorage.setItem('theme', 'dark');
+            }
+        });
+
+        // ------------------ MOBILE NAVIGATION ------------------
+        const mobileMenuBtn = document.getElementById('mobile-menu-btn');
+        const mobileNav = document.getElementById('mobile-nav');
+
+        mobileMenuBtn.addEventListener('click', () => {
+            mobileNav.classList.toggle('hidden');
+        });
+
+        // Close mobile nav on link clicks
+        document.querySelectorAll('[data-mobile-link]').forEach(link => {
+            link.addEventListener('click', () => {
+                mobileNav.classList.add('hidden');
+            });
+        });
+
+        // ------------------ WEBGL GRADIENT SHADER ------------------
+        (function() {
+            const canvas = document.getElementById('shader-canvas');
+            
+            function syncSize() {
+                const w = canvas.clientWidth  || window.innerWidth;
+                const h = canvas.clientHeight || window.innerHeight;
+                if (canvas.width !== w || canvas.height !== h) {
+                    canvas.width  = w;
+                    canvas.height = h;
+                }
+            }
+            window.addEventListener('resize', syncSize);
+            syncSize();
+
+            const gl = canvas.getContext('webgl') || canvas.getContext('experimental-webgl');
+            if (!gl) return;
+
+            const vs = `
+                attribute vec2 a_position;
+                varying vec2 v_texCoord;
+                void main() {
+                    v_texCoord = a_position * 0.5 + 0.5;
+                    gl_Position = vec4(a_position, 0.0, 1.0);
+                }
+            `;
+
+            const fs = `
+                precision highp float;
+                varying vec2 v_texCoord;
+                uniform float u_time;
+                uniform vec2 u_resolution;
+                uniform float u_dark;
+
+                void main() {
+                    vec2 uv = v_texCoord;
+                    
+                    // Base background dynamically switches based on light/dark mode
+                    vec3 bg = mix(vec3(0.976, 0.976, 1.0), vec3(0.043, 0.059, 0.098), u_dark);
+                    
+                    // Glowing colors
+                    vec3 color1 = vec3(0.0, 0.29, 0.78); // Primary Blue
+                    vec3 color2 = vec3(0.0, 0.71, 0.83); // Accent Cyan
+                    
+                    float noise = sin(uv.x * 2.5 + u_time * 0.15) * cos(uv.y * 2.0 + u_time * 0.2);
+                    noise += sin(uv.y * 4.0 - u_time * 0.3) * 0.3;
+                    
+                    // Dark mode uses stronger neon glow accents
+                    float strength = mix(0.12, 0.28, u_dark);
+                    vec3 finalColor = mix(bg, color1, clamp(noise * strength, 0.0, 1.0));
+                    
+                    float pulse = sin(u_time * 0.08) * 0.5 + 0.5;
+                    finalColor = mix(finalColor, color2, clamp(pulse * (u_dark > 0.5 ? 0.18 : 0.06), 0.0, 1.0));
+                    
+                    gl_FragColor = vec4(finalColor, 1.0);
+                }
+            `;
+
+            function compileShader(type, src) {
+                const s = gl.createShader(type);
+                gl.shaderSource(s, src);
+                gl.compileShader(s);
+                return s;
+            }
+
+            const prog = gl.createProgram();
+            gl.attachShader(prog, compileShader(gl.VERTEX_SHADER, vs));
+            gl.attachShader(prog, compileShader(gl.FRAGMENT_SHADER, fs));
+            gl.linkProgram(prog);
+            gl.useProgram(prog);
+
+            const buf = gl.createBuffer();
+            gl.bindBuffer(gl.ARRAY_BUFFER, buf);
+            gl.bufferData(gl.ARRAY_BUFFER, new Float32Array([-1,-1, 1,-1, -1,1, 1,1]), gl.STATIC_DRAW);
+
+            const pos = gl.getAttribLocation(prog, 'a_position');
+            gl.enableVertexAttribArray(pos);
+            gl.vertexAttribPointer(pos, 2, gl.FLOAT, false, 0, 0);
+
+            const uTime = gl.getUniformLocation(prog, 'u_time');
+            const uRes = gl.getUniformLocation(prog, 'u_resolution');
+            const uDark = gl.getUniformLocation(prog, 'u_dark');
+
+            function render(t) {
+                syncSize();
+                gl.viewport(0, 0, canvas.width, canvas.height);
+                
+                if (uTime) gl.uniform1f(uTime, t * 0.001);
+                if (uRes) gl.uniform2f(uRes, canvas.width, canvas.height);
+                if (uDark) gl.uniform1f(uDark, html.classList.contains('dark') ? 1.0 : 0.0);
+                
+                gl.drawArrays(gl.TRIANGLE_STRIP, 0, 4);
+                requestAnimationFrame(render);
+            }
+            render(0);
+        })();
+
+        // ------------------ NAVIGATION LINKS SCROLL OBSERVER ------------------
+        const sections = document.querySelectorAll('section[id]');
+        const navLinks = document.querySelectorAll('[data-nav-link]');
+
+        window.addEventListener('scroll', () => {
+            let current = '';
+            const scrollPos = window.scrollY + 120; // offset
+
+            sections.forEach(section => {
+                const top = section.offsetTop;
+                const height = section.offsetHeight;
+                if (scrollPos >= top && scrollPos < top + height) {
+                    current = section.getAttribute('id');
+                }
+            });
+
+            navLinks.forEach(link => {
+                link.classList.remove('text-primary', 'dark:text-[#6495ed]', 'after:w-full');
+                link.classList.add('text-on-surface-variant', 'dark:text-gray-300');
+                
+                const href = link.getAttribute('href').substring(1);
+                if (href === current) {
+                    link.classList.add('text-primary', 'dark:text-[#6495ed]', 'after:w-full');
+                    link.classList.remove('text-on-surface-variant', 'dark:text-gray-300');
+                }
+            });
+        });
+
+        // ------------------ ENTRANCE SCROLL REVEAL ------------------
+        const revealElements = document.querySelectorAll('.reveal-element');
+        const observerOptions = {
+            threshold: 0.08,
+            rootMargin: "0px 0px -40px 0px"
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('active');
+                    
+                    // Micro-interaction for circular bars
+                    if (entry.target.classList.contains('skill-card')) {
+                        const circle = entry.target.querySelector('.circular-progress-bar');
+                        if (circle) {
+                            circle.style.animation = 'none';
+                            circle.offsetHeight; // reflow
+                            circle.style.animation = null;
+                        }
+                    }
+                }
+            });
+        }, observerOptions);
+
+        revealElements.forEach(el => {
+            observer.observe(el);
+        });
+
+        // Re-trigger circular bars animation on card hover
+        document.querySelectorAll('.skill-card').forEach(card => {
+            card.addEventListener('mouseenter', () => {
+                const circle = card.querySelector('.circular-progress-bar');
+                if (circle) {
+                    circle.style.animation = 'none';
+                    circle.offsetHeight; // reflow
+                    circle.style.animation = null;
+                }
+            });
+        });
+
+        // ------------------ SIMULATED ACTIONS ------------------
+        // Form Submission
+        document.getElementById('contactForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            const form = e.target;
+            const btn = form.querySelector('button[type="submit"]');
+            const originalContent = btn.innerHTML;
+            
+            btn.innerHTML = '<span class="material-symbols-outlined animate-spin text-base">sync</span> Sending...';
+            btn.disabled = true;
+            
+            setTimeout(() => {
+                btn.innerHTML = '<span class="material-symbols-outlined text-base">check_circle</span> Message Sent!';
+                btn.style.backgroundColor = '#22C55E';
+                form.reset();
+                
+                setTimeout(() => {
+                    btn.innerHTML = originalContent;
+                    btn.style.backgroundColor = '';
+                    btn.disabled = false;
+                }, 3000);
+            }, 1200);
+        });
+
+        // Resume PDF Download simulation
+        const simulateResumeDownload = (e) => {
+            e.preventDefault();
+            const btn = e.currentTarget;
+            const originalContent = btn.innerHTML;
+            btn.innerHTML = '<span class="material-symbols-outlined animate-spin text-base">sync</span> Generating...';
+            btn.disabled = true;
+            
+            setTimeout(() => {
+                btn.innerHTML = '<span class="material-symbols-outlined text-base">cloud_download</span> Downloading...';
+                
+                // Simulate a PDF file download triggering
+                const dummyLink = document.createElement('a');
+                dummyLink.href = 'data:application/pdf;base64,JVBERi0xLjQKJdPr6gogMSAwIG9iagogIDw8IC9UeXBlIC9DYXRhbG9nCiAgICAgL1BhZ2VzIDIgMCBSCiAgPj4KZW5kb2JqCjIgMCBvYmoKICA8PCAvVHlwZSAvUGFnZXMKICAgICAvS2lkcyBbIDMgMCBSIF0KICAgICAvQ291bnQgMQogID4+CmVuZG9iagozIDAgb2JqCiAgPDwgL1R5cGUgL1BhZ2UKICAgICAvUGFyZW50IDIgMCBSCiAgICAgL01lZGlhQm94IFsgMCAwIDU5NSA4NDIgXQogICAgIC9Db250ZW50cyA0IDAgUgoKICA+PgplbmRvYmoKNCAwIG9iagogIDw8IC9MZW5ndGggNTYgPj4Kc3RyZWFtCkJUCi9GMSAxMiBUZgoxMDAgNzAwIFRkCihNdWhhbW1hZCBGYWl6YWwgUmVzdW1lKSBUagogRVQKZW5kc3RyZWFtCmVuZG9iagp4cmVmCjAgNQowMDAwMDAwMDAwIDY1NTM1IGYgCjAwMDAwMDAwMDkgMDAwMDAgbiAKMDAwMDAwMDA2MiAwMDAwMCBuIAowMDAwMDAwMTIzIDAwMDAwIGYgCjAwMDAwMDAyMjYgMDAwMDAgbiAKdHJhaWxlcgogIDw8IC9TaXplIDUKICAgICAvUm9vdCAxIDAgUgogID4+CnN0YXJ0eHJlZgogIDMwOQolJUVPRg==';
+                dummyLink.download = 'Resume_Muhammad_Faizal.pdf';
+                document.body.appendChild(dummyLink);
+                dummyLink.click();
+                document.body.removeChild(dummyLink);
+                
+                setTimeout(() => {
+                    btn.innerHTML = originalContent;
+                    btn.disabled = false;
+                }, 2000);
+            }, 1500);
+        };
+
+        document.getElementById('download-resume-btn').addEventListener('click', simulateResumeDownload);
+        document.getElementById('download-resume-btn-2').addEventListener('click', simulateResumeDownload);
+    </script>
+
+    <!-- Floating WhatsApp Button -->
+    <a href="https://wa.me/60105269562" target="_blank" rel="noopener noreferrer" 
+       class="fixed bottom-6 right-6 z-50 bg-[#25D366] text-white w-14 h-14 rounded-full flex items-center justify-center shadow-2xl hover:scale-110 active:scale-95 transition-all duration-300 group"
+       title="Chat on WhatsApp">
+        <span class="material-symbols-outlined text-[30px]" style="font-variation-settings: 'FILL' 1;">chat</span>
+        <span class="absolute right-16 bg-slate-900 text-white text-base font-semibold px-3 py-1.5 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300 whitespace-nowrap shadow-md pointer-events-none">
+            Hubungi saya di WhatsApp
+        </span>
+    </a>
+</body>
+</html>
