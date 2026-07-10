@@ -202,41 +202,43 @@
         <!-- Premium glowing bottom border decoration -->
         <div class="absolute bottom-0 left-0 w-full h-[1.5px] bg-gradient-to-r from-transparent via-amber-500/40 dark:via-amber-400/30 to-transparent"></div>
 
-        <div class="max-w-7xl mx-auto px-6 md:px-12 flex justify-between items-center h-20">
+        <div class="max-w-7xl mx-auto px-6 lg:px-8 xl:px-12 flex justify-between items-center h-20">
             <a class="flex items-center group hover:opacity-90 transition-opacity relative pl-[160px] h-full" href="#home">
                 <img class="absolute left-0 rounded-lg object-contain transition-transform duration-300 group-hover:scale-105" src="logo.png" alt="PejalCoco Logo" onerror="this.style.display='none'" style="height: 110px; width: auto; max-height: 110px; filter: drop-shadow(0 6px 12px rgba(245, 158, 11, 0.15)); top: -15px;">
             </a>
             
-            <div class="hidden lg:flex items-center space-x-6 xl:space-x-8">
-                <a class="font-body-md text-base font-semibold text-primary dark:text-[#6495ed] relative after:absolute after:bottom-[-4px] after:left-0 after:w-full after:h-[2px] after:bg-primary dark:after:bg-[#6495ed] after:transition-all after:duration-300" href="#home" data-nav-link>Home</a>
-                <span class="text-amber-500 dark:text-amber-400 font-bold text-base">|</span>
-                <a class="font-body-md text-base font-semibold text-on-surface-variant dark:text-gray-300 hover:text-primary dark:hover:text-[#6495ed] transition-colors duration-200" href="#about" data-nav-link>About</a>
-                <span class="text-amber-500 dark:text-amber-400 font-bold text-base">|</span>
-                <a class="font-body-md text-base font-semibold text-on-surface-variant dark:text-gray-300 hover:text-primary dark:hover:text-[#6495ed] transition-colors duration-200" href="#legacy" data-nav-link>Impact</a>
-                <span class="text-amber-500 dark:text-amber-400 font-bold text-base">|</span>
-                <a class="font-body-md text-base font-semibold text-on-surface-variant dark:text-gray-300 hover:text-primary dark:hover:text-[#6495ed] transition-colors duration-200" href="#experience" data-nav-link>Experience</a>
-                <span class="text-amber-500 dark:text-amber-400 font-bold text-base">|</span>
-                <a class="font-body-md text-base font-semibold text-on-surface-variant dark:text-gray-300 hover:text-primary dark:hover:text-[#6495ed] transition-colors duration-200" href="#ventures" data-nav-link>Ventures</a>
-                <span class="text-amber-500 dark:text-amber-400 font-bold text-base">|</span>
-                <a class="font-body-md text-base font-semibold text-on-surface-variant dark:text-gray-300 hover:text-primary dark:hover:text-[#6495ed] transition-colors duration-200" href="#skills" data-nav-link>Skills</a>
-                <span class="text-amber-500 dark:text-amber-400 font-bold text-base">|</span>
-                <a class="font-body-md text-base font-semibold text-on-surface-variant dark:text-gray-300 hover:text-primary dark:hover:text-[#6495ed] transition-colors duration-200" href="#contact" data-nav-link>Contact</a>
-            </div>
+            <div class="flex items-center gap-4 lg:gap-6 xl:gap-8">
+                <div class="hidden lg:flex items-center lg:space-x-3 xl:space-x-6 2xl:space-x-8">
+                    <a class="font-body-md lg:text-sm xl:text-base font-semibold text-primary dark:text-[#6495ed] relative after:absolute after:bottom-[-4px] after:left-0 after:w-full after:h-[2px] after:bg-primary dark:after:bg-[#6495ed] after:transition-all after:duration-300" href="#home" data-nav-link>Home</a>
+                    <span class="text-amber-500 dark:text-amber-400 font-bold lg:text-sm xl:text-base">|</span>
+                    <a class="font-body-md lg:text-sm xl:text-base font-semibold text-on-surface-variant dark:text-gray-300 hover:text-primary dark:hover:text-[#6495ed] transition-colors duration-200" href="#about" data-nav-link>About</a>
+                    <span class="text-amber-500 dark:text-amber-400 font-bold lg:text-sm xl:text-base">|</span>
+                    <a class="font-body-md lg:text-sm xl:text-base font-semibold text-on-surface-variant dark:text-gray-300 hover:text-primary dark:hover:text-[#6495ed] transition-colors duration-200" href="#legacy" data-nav-link>Impact</a>
+                    <span class="text-amber-500 dark:text-amber-400 font-bold lg:text-sm xl:text-base">|</span>
+                    <a class="font-body-md lg:text-sm xl:text-base font-semibold text-on-surface-variant dark:text-gray-300 hover:text-primary dark:hover:text-[#6495ed] transition-colors duration-200" href="#experience" data-nav-link>Experience</a>
+                    <span class="text-amber-500 dark:text-amber-400 font-bold lg:text-sm xl:text-base">|</span>
+                    <a class="font-body-md lg:text-sm xl:text-base font-semibold text-on-surface-variant dark:text-gray-300 hover:text-primary dark:hover:text-[#6495ed] transition-colors duration-200" href="#ventures" data-nav-link>Ventures</a>
+                    <span class="text-amber-500 dark:text-amber-400 font-bold lg:text-sm xl:text-base">|</span>
+                    <a class="font-body-md lg:text-sm xl:text-base font-semibold text-on-surface-variant dark:text-gray-300 hover:text-primary dark:hover:text-[#6495ed] transition-colors duration-200" href="#skills" data-nav-link>Skills</a>
+                    <span class="text-amber-500 dark:text-amber-400 font-bold lg:text-sm xl:text-base">|</span>
+                    <a class="font-body-md lg:text-sm xl:text-base font-semibold text-on-surface-variant dark:text-gray-300 hover:text-primary dark:hover:text-[#6495ed] transition-colors duration-200" href="#contact" data-nav-link>Contact</a>
+                </div>
 
-            <div class="flex items-center gap-md">
-                <!-- Theme Toggle Button -->
-                <button id="theme-toggle" class="mr-3 w-10 h-10 flex-shrink-0 bg-slate-100 dark:bg-slate-800 hover:bg-slate-200 dark:hover:bg-slate-700 text-on-surface dark:text-gray-300 rounded-full transition-all duration-200 shadow-sm flex items-center justify-center border border-outline-variant/30 dark:border-outline/10" aria-label="Toggle Dark Mode">
-                    <span id="theme-toggle-icon" class="material-symbols-outlined text-[20px] leading-none">dark_mode</span>
-                </button>
+                <div class="flex items-center gap-sm lg:gap-md">
+                    <!-- Theme Toggle Button -->
+                    <button id="theme-toggle" class="mr-3 lg:mr-0 w-10 h-10 flex-shrink-0 bg-slate-100 dark:bg-slate-800 hover:bg-slate-200 dark:hover:bg-slate-700 text-on-surface dark:text-gray-300 rounded-full transition-all duration-200 shadow-sm flex items-center justify-center border border-outline-variant/30 dark:border-outline/10" aria-label="Toggle Dark Mode">
+                        <span id="theme-toggle-icon" class="material-symbols-outlined text-[20px] leading-none">dark_mode</span>
+                    </button>
 
-                <!-- Mobile Menu Button -->
-                <button id="mobile-menu-btn" class="lg:hidden p-2 rounded-full hover:bg-surface-container-low dark:hover:bg-slate-800 transition-colors text-on-surface dark:text-gray-300" aria-label="Open navigation menu">
-                    <span class="material-symbols-outlined text-[24px]">menu</span>
-                </button>
+                    <!-- Mobile Menu Button -->
+                    <button id="mobile-menu-btn" class="lg:hidden p-2 rounded-full hover:bg-surface-container-low dark:hover:bg-slate-800 transition-colors text-on-surface dark:text-gray-300" aria-label="Open navigation menu">
+                        <span class="material-symbols-outlined text-[24px]">menu</span>
+                    </button>
 
-                <a href="#contact" class="hidden sm:inline-block bg-primary hover:bg-[#003ea8] text-white px-6 py-2 rounded-full font-label-md hover:scale-105 active:scale-95 transition-all duration-200 ease-out-expo shadow-lg shadow-primary/20 whitespace-nowrap">
-                    Get in Touch
-                </a>
+                    <a href="#contact" class="hidden sm:inline-block bg-primary hover:bg-[#003ea8] text-white px-6 py-2 rounded-full font-label-md hover:scale-105 active:scale-95 transition-all duration-200 ease-out-expo shadow-lg shadow-primary/20 whitespace-nowrap">
+                        Get in Touch
+                    </a>
+                </div>
             </div>
         </div>
         
